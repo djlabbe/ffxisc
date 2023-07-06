@@ -2,12 +2,7 @@ import { useEffect, useState } from "react";
 import BlueMagic from "./models/BlueMagic";
 import {
   Box,
-  Center,
-  Container,
   Flex,
-  Grid,
-  GridItem,
-  HStack,
   Heading,
   Stack,
   Tab,
@@ -16,7 +11,6 @@ import {
   TabPanel,
   TabPanels,
   Tabs,
-  Text,
   VStack,
 } from "@chakra-ui/react";
 import SpellCard from "./SpellCard";
