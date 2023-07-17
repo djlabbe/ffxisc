@@ -1,5 +1,4 @@
 import { Container } from "@chakra-ui/react";
-import BluGuide from "./BluGuide";
 import WSCalc from "./WSCalc";
 
 function App() {

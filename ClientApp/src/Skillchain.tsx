@@ -2,7 +2,6 @@ import {
     Box,
     Button,
     Center,
-    Container,
     HStack,
     Heading,
     Select,
@@ -50,13 +49,13 @@ import {
       setJobs([...jobs, ""]);
     };
   
-    const handleRemoveJob = (index: number) => {
-      const nextJobs = [
-        ...jobs.slice(0, index),
-        ...jobs.slice(index + 1, jobs.length),
-      ];
-      setJobs(nextJobs);
-    };
+    // const handleRemoveJob = (index: number) => {
+    //   const nextJobs = [
+    //     ...jobs.slice(0, index),
+    //     ...jobs.slice(index + 1, jobs.length),
+    //   ];
+    //   setJobs(nextJobs);
+    // };
   
     return (
         <VStack>
@@ -88,7 +87,7 @@ import {
                   <Button
                     colorScheme="red"
                     size="lg"
-                    onClick={(e) => handleRemoveJob(i)}
+                    // onClick={(e) => handleRemoveJob(i)}
                   >
                     X
                   </Button>

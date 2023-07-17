@@ -2,15 +2,11 @@ import { useState } from "react";
 import {
   Box,
   Button,
-  Flex,
   FormControl,
-  FormHelperText,
   FormLabel,
   Grid,
   Heading,
   Input,
-  Stack,
-  VStack,
 } from "@chakra-ui/react";
 import { calcWSDamage } from "./calculations/weaponskill";
 import { Text } from "@chakra-ui/react";
