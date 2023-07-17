@@ -7,11 +7,25 @@ import {
   Grid,
   Heading,
   Input,
+  Select,
 } from "@chakra-ui/react";
-import { calcWSDamage } from "./calculations/weaponskill";
+import { calcWSDamage, weaponTypes } from "./calculations/weaponskill";
 import { Text } from "@chakra-ui/react";
 
 interface WeaponSkillParams {
+  weaponType:
+    | "Katana"
+    | "Dagger"
+    | "Sword"
+    | "Axe"
+    | "Club"
+    | "Great Katana"
+    | "Hand-to-Hand"
+    | "Great Sword"
+    | "Staff"
+    | "Great Axe"
+    | "Polearm"
+    | "Scythe";
   weaponBaseDamage: string;
   str: string;
   vit: string;
@@ -35,6 +49,7 @@ interface WeaponSkillParams {
 const WSCalc = () => {
   const [weaponSkillParams, setWeaponSkillParams] = useState<WeaponSkillParams>(
     {
+      weaponType: "Hand-to-Hand",
       weaponBaseDamage: "",
       str: "",
       vit: "",
@@ -67,7 +82,7 @@ const WSCalc = () => {
 
   const handleSwing = () => {
     const damage = calcWSDamage(
-      "Great Katana",
+      weaponSkillParams.weaponType,
       Number(weaponSkillParams.attack),
       Number(weaponSkillParams.defense),
       Number(weaponSkillParams.wpnNumHits),
@@ -89,7 +104,11 @@ const WSCalc = () => {
     setLastSwing(damage);
   };
 
-  const renderInput = (label: string, name: keyof WeaponSkillParams, placeholder?: string) => {
+  const renderInput = (
+    label: string,
+    name: keyof WeaponSkillParams,
+    placeholder?: string
+  ) => {
     return (
       <FormControl>
         <FormLabel>{label}</FormLabel>
@@ -108,25 +127,85 @@ const WSCalc = () => {
       <Box my="2">
         <Heading>Weapon Skill Damage Calculator</Heading>
       </Box>
-      <Grid my="5" templateColumns='repeat(2, 1fr)' gap={6}>
-        {renderInput("Weapon Base Damage", "weaponBaseDamage", "Damage as displayed on Weapon")}
+      <Grid my="5" templateColumns="repeat(2, 1fr)" gap={6}>
+        <FormControl>
+         <FormLabel>Weapon Type</FormLabel>
+          <Select>
+            {weaponTypes.map((weapon) => (
+              <option value={weapon}>{weapon}</option>
+            ))}
+          </Select>
+        </FormControl>
+        {renderInput(
+          "Weapon Base Damage",
+          "weaponBaseDamage",
+          "Damage as displayed on Weapon"
+        )}
         {renderInput("Player STR", "str")}
         {renderInput("Enemy VIT", "vit")}
-        {renderInput("Weapon Mod A", "wpnMod1", "First WS Modifier % (0.00 - 1.00) [eg. Savage Blade = '0.5']")}
-        {renderInput("Weapon Stat A", "wpnStat1", "First WS Modifier Value [eg. Savage Blade = Player STR]")}
-        {renderInput("Weapon Mod B", "wpnMod2", "Second WS Modifier % (0.00 - 1.00) [eg. Savage Blade = '0.5']")}
-        {renderInput("Weapon Stat B", "wpnStat2", "Second WS Modifier Value [eg. Savage Blade = Player MND]")}
-        {renderInput("fTP", "ftp", "FTP Value [eg. Savage Blade 1000 TP = '4.0']")}
+        {renderInput(
+          "Weapon Mod A",
+          "wpnMod1",
+          "First WS Modifier % (0.00 - 1.00) [eg. Savage Blade = '0.5']"
+        )}
+        {renderInput(
+          "Weapon Stat A",
+          "wpnStat1",
+          "First WS Modifier Value [eg. Savage Blade = Player STR]"
+        )}
+        {renderInput(
+          "Weapon Mod B",
+          "wpnMod2",
+          "Second WS Modifier % (0.00 - 1.00) [eg. Savage Blade = '0.5']"
+        )}
+        {renderInput(
+          "Weapon Stat B",
+          "wpnStat2",
+          "Second WS Modifier Value [eg. Savage Blade = Player MND]"
+        )}
+        {renderInput(
+          "fTP",
+          "ftp",
+          "FTP Value [eg. Savage Blade 1000 TP = '4.0']"
+        )}
         {renderInput("Player Attack", "attack")}
         {renderInput("Enemy Defense", "defense")}
-        {renderInput("Number of WS Hits", "wpnNumHits", "Number of hits [eg. Savage Blade = '2']")}
+        {renderInput(
+          "Number of WS Hits",
+          "wpnNumHits",
+          "Number of hits [eg. Savage Blade = '2']"
+        )}
         {renderInput("PDL Trait", "pdlTrait", "PDL from Traits [eg. '0.3']")}
-        {renderInput("PDL Gear/Song", "pdlGear", "PDL from Gear and Songs [eg. '0.45']")}
-        {renderInput("Weapon Skill Damage", "wsd", "Weapon Skill Damage from gear [eg. '0.8']")}
-        {renderInput("Weapon Skill Bonus", "wsBonus", "Stuff like Gokotai, Naegling, hidden Relic/Mythic WS damage, REMA augments [eg. '0.8']")}
-        {renderInput("Weapon Skill Trait", "wsTrait", "DRG or /DRG traits. Add 0.1 for Wyvern as DRG [eg. '0.4']")}
-        {renderInput("Critical Rate", "critRate", "% chance to crit [eg. '0.05']")}
-        {renderInput("Critical Damage Bonus", "critDamageBonus", "Any Critical Damage Bonus from gear [eg. '0.1']")}
+        {renderInput(
+          "PDL Gear/Song",
+          "pdlGear",
+          "PDL from Gear and Songs [eg. '0.45']"
+        )}
+        {renderInput(
+          "Weapon Skill Damage",
+          "wsd",
+          "Weapon Skill Damage from gear [eg. '0.8']"
+        )}
+        {renderInput(
+          "Weapon Skill Bonus",
+          "wsBonus",
+          "Stuff like Gokotai, Naegling, hidden Relic/Mythic WS damage, REMA augments [eg. '0.8']"
+        )}
+        {renderInput(
+          "Weapon Skill Trait",
+          "wsTrait",
+          "DRG or /DRG traits. Add 0.1 for Wyvern as DRG [eg. '0.4']"
+        )}
+        {renderInput(
+          "Critical Rate",
+          "critRate",
+          "% chance to crit [eg. '0.05']"
+        )}
+        {renderInput(
+          "Critical Damage Bonus",
+          "critDamageBonus",
+          "Any Critical Damage Bonus from gear [eg. '0.1']"
+        )}
       </Grid>
       <Button onClick={handleSwing}>Swing!</Button>
       {lastSwing != undefined && (

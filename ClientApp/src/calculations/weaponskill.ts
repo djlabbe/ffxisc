@@ -1,17 +1,22 @@
+export const weaponTypes = [
+  "Hand-to-Hand",
+  "Dagger",
+  "Sword",
+  "Great Sword",
+  "Axe",
+  "Great Axe",
+  "Scythe",
+  "Polearm",
+  "Katana",
+  "Great Katana",
+  "Club",
+  "Staff",
+] as const;
+
+export type WeaponType = typeof weaponTypes[number];
+
 export const calcWSDamage = (
-  wpn_type_skill:
-    | "Katana"
-    | "Dagger"
-    | "Sword"
-    | "Axe"
-    | "Club"
-    | "Great Katana"
-    | "Hand-to-Hand"
-    | "Great Sword"
-    | "Staff"
-    | "Great Axe"
-    | "Polearm"
-    | "Scythe",
+  wpn_type_skill: WeaponType,
   playerAttack: number,
   enemyDefense: number,
   wsNumHits: number,
@@ -193,7 +198,7 @@ const calcWSHit = (
   let damage =
     (weaponBaseDamage + fStr + wsc) *
     fTP *
-    (isFirstRound ? (1 + wsd) : 1) *
+    (isFirstRound ? 1 + wsd : 1) *
     (1 + wsBonus) *
     (1 + wsTrait);
 
