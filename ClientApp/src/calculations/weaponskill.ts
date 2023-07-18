@@ -26,6 +26,7 @@ export const calcWSDamage = (
   vit: number,
   wsc: number,
   fTP: number,
+  fTPReplicating: boolean,
   critRate: number,
   critDamageBonus: number,
   wsd: number,
@@ -58,7 +59,7 @@ export const calcWSDamage = (
         fSTR,
         wsc,
         pDIF,
-        fTP,
+        i == 0 ? fTP : fTPReplicating ? fTP : 1, // FTP 1 after first round. TODO: Add option for replication
         isCrit,
         critDamageBonus,
         wsd,

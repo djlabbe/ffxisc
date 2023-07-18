@@ -2,6 +2,7 @@ import { useState } from "react";
 import {
   Box,
   Button,
+  Checkbox,
   FormControl,
   FormLabel,
   Grid,
@@ -70,6 +71,8 @@ const WSCalc = () => {
       critDamageBonus: "",
     }
   );
+  const [ftpReplicating, setFtpReplicating] = useState(false);
+
   const [lastSwing, setLastSwing] = useState<number>();
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -78,6 +81,10 @@ const WSCalc = () => {
       ...weaponSkillParams,
       [e.target.name]: value,
     });
+  };
+
+  const handleChangeFtpReplicating = (value: boolean) => {
+    setFtpReplicating(value);
   };
 
   const handleSwing = () => {
@@ -93,6 +100,7 @@ const WSCalc = () => {
       Number(weaponSkillParams.wpnMod1) * Number(weaponSkillParams.wpnStat1) +
         Number(weaponSkillParams.wpnMod2) * Number(weaponSkillParams.wpnStat2),
       Number(weaponSkillParams.ftp),
+      ftpReplicating,
       Number(weaponSkillParams.critRate),
       Number(weaponSkillParams.critDamageBonus),
       Number(weaponSkillParams.wsd),
@@ -129,7 +137,7 @@ const WSCalc = () => {
       </Box>
       <Grid my="5" templateColumns="repeat(2, 1fr)" gap={6}>
         <FormControl>
-         <FormLabel>Weapon Type</FormLabel>
+          <FormLabel>Weapon Type</FormLabel>
           <Select>
             {weaponTypes.map((weapon) => (
               <option value={weapon}>{weapon}</option>
@@ -168,6 +176,12 @@ const WSCalc = () => {
           "ftp",
           "FTP Value [eg. Savage Blade 1000 TP = '4.0']"
         )}
+        <FormControl>
+          <FormLabel>FTP Replication</FormLabel>
+          <Checkbox size="lg" colorScheme="orange" checked={ftpReplicating} onChange={(e) => handleChangeFtpReplicating(e.target.checked)}>
+            FTP Replicating WS
+          </Checkbox>
+        </FormControl>
         {renderInput("Player Attack", "attack")}
         {renderInput("Enemy Defense", "defense")}
         {renderInput(
