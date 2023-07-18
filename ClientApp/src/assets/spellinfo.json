@@ -1,0 +1,1606 @@
+[
+  {
+    "name": "Sheep Song",
+    "id": 584,
+    "level": 16,
+    "cost": 2,
+    "element": 6,
+    "effect": ["Sleep"]
+  },
+  {
+    "name": "Temporal Shift",
+    "id": 616,
+    "level": 73,
+    "cost": 5,
+    "element": 4,
+    "effect": ["Stun"],
+    "voidwatch": true
+  },
+  {
+    "name": "Regurgitation",
+    "id": 648,
+    "level": 69,
+    "cost": 1,
+    "element": 5,
+    "effect": ["Bind"],
+    "nuke": true
+  },
+  {
+    "name": "Charged Whisker",
+    "id": 680,
+    "level": 88,
+    "cost": 5,
+    "element": 4,
+    "effect": [],
+    "voidwatch": true,
+    "nuke": true
+  },
+  {
+    "name": "Rail Cannon",
+    "id": 712,
+    "level": 99,
+    "cost": 6,
+    "element": 6,
+    "effect": [],
+    "nuke": true
+  },
+  {
+    "name": "MP Drainkiss",
+    "id": 521,
+    "level": 42,
+    "cost": 4,
+    "element": 7,
+    "effect": ["Aspir"]
+  },
+  {
+    "name": "Ram Charge",
+    "id": 585,
+    "level": 73,
+    "cost": 4,
+    "element": 15,
+    "effect": [],
+    "sca": "Fragmentation"
+  },
+  {
+    "name": "Vertical Cleave",
+    "id": 617,
+    "level": 75,
+    "cost": 3,
+    "element": 15,
+    "effect": [],
+    "sca": "Gravitation"
+  },
+  {
+    "name": "Winds of Promyvion",
+    "id": 681,
+    "level": 89,
+    "cost": 5,
+    "element": 6,
+    "effect": ["Erase"]
+  },
+  {
+    "name": "Diffusion Ray",
+    "id": 713,
+    "level": 99,
+    "cost": 6,
+    "element": 6,
+    "effect": [],
+    "nuke": true
+  },
+  {
+    "name": "Death Ray",
+    "id": 522,
+    "level": 34,
+    "cost": 2,
+    "element": 7,
+    "effect": [],
+    "voidwatch": true,
+    "nuke": true
+  },
+  {
+    "name": "Death Scissors",
+    "id": 554,
+    "level": 60,
+    "cost": 5,
+    "element": 15,
+    "effect": [],
+    "sca": "Compression",
+    "scb": "Reverberation"
+  },
+  {
+    "name": "Blastbomb",
+    "id": 618,
+    "level": 18,
+    "cost": 2,
+    "element": 0,
+    "effect": ["Bind"],
+    "voidwatch": true,
+    "nuke": true
+  },
+  {
+    "name": "Seedspray",
+    "id": 650,
+    "level": 61,
+    "cost": 4,
+    "element": 15,
+    "effect": ["Defense Down"],
+    "sca": "Induration",
+    "scb": "Detonation"
+  },
+  {
+    "name": "Delta Thrust",
+    "id": 682,
+    "level": 89,
+    "cost": 2,
+    "element": 15,
+    "effect": ["Plague"],
+    "sca": "Liquifaction",
+    "scb": "Detonation"
+  },
+  {
+    "name": "Sinker Drill",
+    "id": 714,
+    "level": 99,
+    "cost": 6,
+    "element": 15,
+    "effect": [],
+    "sca": "Gravitation",
+    "scb": "Reverberation"
+  },
+  {
+    "name": "Magnetite Cloud",
+    "id": 555,
+    "level": 46,
+    "cost": 3,
+    "element": 3,
+    "effect": ["Gravity"],
+    "voidwatch": true,
+    "abyssea": true,
+    "nuke": true
+  },
+  {
+    "name": "Claw Cyclone",
+    "id": 587,
+    "level": 20,
+    "cost": 2,
+    "element": 15,
+    "effect": [],
+    "sca": "Scission"
+  },
+  {
+    "name": "Corrosive Ooze",
+    "id": 651,
+    "level": 66,
+    "cost": 4,
+    "element": 5,
+    "effect": ["Defense Down", "Attack Down"],
+    "voidwatch": true,
+    "nuke": true
+  },
+  {
+    "name": "Evryone. Grudge",
+    "id": 683,
+    "level": 90,
+    "cost": 4,
+    "element": 7,
+    "effect": [],
+    "nuke": true
+  },
+  {
+    "name": "Molting Plumage",
+    "id": 715,
+    "level": 99,
+    "cost": 6,
+    "element": 2,
+    "effect": [],
+    "nuke": true
+  },
+  {
+    "name": "Sandspin",
+    "id": 524,
+    "level": 1,
+    "cost": 2,
+    "element": 3,
+    "effect": ["Accuracy Down"],
+    "voidwatch": true,
+    "nuke": true
+  },
+  {
+    "name": "Lowing",
+    "id": 588,
+    "level": 71,
+    "cost": 2,
+    "element": 0,
+    "effect": ["Plague"]
+  },
+  {
+    "name": "Battle Dance",
+    "id": 620,
+    "level": 12,
+    "cost": 3,
+    "element": 15,
+    "effect": ["Dex Down"],
+    "sca": "Impaction"
+  },
+  {
+    "name": "Spiral Spin",
+    "id": 652,
+    "level": 60,
+    "cost": 3,
+    "element": 15,
+    "effect": ["Accuracy Down"],
+    "sca": "Transfixion"
+  },
+  {
+    "name": "Reaving Wind",
+    "id": 684,
+    "level": 90,
+    "cost": 4,
+    "element": 2,
+    "effect": ["Reduce TP"],
+    "voidwatch": true
+  },
+  {
+    "name": "Nectarous Deluge",
+    "id": 716,
+    "level": 99,
+    "cost": 6,
+    "element": 5,
+    "effect": ["Poison"],
+    "nuke": true
+  },
+  {
+    "name": "Eyes On Me",
+    "id": 557,
+    "level": 61,
+    "cost": 4,
+    "element": 7,
+    "effect": [],
+    "voidwatch": true,
+    "abyssea": true,
+    "nuke": true
+  },
+  {
+    "name": "Dimensional Death",
+    "id": 589,
+    "level": 60,
+    "cost": 5,
+    "element": 15,
+    "effect": [],
+    "sca": "Impaction"
+  },
+  {
+    "name": "Sandspray",
+    "id": 621,
+    "level": 66,
+    "cost": 2,
+    "element": 7,
+    "effect": ["Blind"],
+    "voidwatch": true
+  },
+  {
+    "name": "Asuran Claws",
+    "id": 653,
+    "level": 70,
+    "cost": 2,
+    "element": 15,
+    "effect": [],
+    "sca": "Liquifaction",
+    "scb": "Impaction"
+  },
+  {
+    "name": "Barrier Tusk",
+    "id": 685,
+    "level": 91,
+    "cost": 3,
+    "element": 3,
+    "effect": ["Phalanx"]
+  },
+  {
+    "name": "Sweeping Gouge",
+    "id": 717,
+    "level": 99,
+    "cost": 6,
+    "element": 15,
+    "effect": ["Defense Down"],
+    "sca": "Fragmentation",
+    "scb": "Scission"
+  },
+  {
+    "name": "Grand Slam",
+    "id": 622,
+    "level": 30,
+    "cost": 2,
+    "element": 15,
+    "effect": [],
+    "sca": "Induration"
+  },
+  {
+    "name": "Sub-zero Smash",
+    "id": 654,
+    "level": 72,
+    "cost": 4,
+    "element": 15,
+    "effect": ["Paralyze"],
+    "sca": "Fragmentation"
+  },
+  {
+    "name": "Mortal Ray",
+    "id": 686,
+    "level": 91,
+    "cost": 4,
+    "element": 7,
+    "effect": ["Doom"]
+  },
+  {
+    "name": "Atra. Libations",
+    "id": 718,
+    "level": 99,
+    "cost": 6,
+    "element": 7,
+    "effect": ["Drain"],
+    "nuke": true
+  },
+  {
+    "name": "Smite of Rage",
+    "id": 527,
+    "level": 34,
+    "cost": 3,
+    "element": 15,
+    "effect": [],
+    "sca": "Detonation"
+  },
+  {
+    "name": "Heat Breath",
+    "id": 591,
+    "level": 71,
+    "cost": 4,
+    "element": 0,
+    "effect": [],
+    "voidwatch": true,
+    "abyssea": true,
+    "nuke": true
+  },
+  {
+    "name": "Head Butt",
+    "id": 623,
+    "level": 12,
+    "cost": 3,
+    "element": 15,
+    "effect": ["Stun"],
+    "sca": "Impaction"
+  },
+  {
+    "name": "Triumphant Roar",
+    "id": 655,
+    "level": 71,
+    "cost": 3,
+    "element": 0,
+    "effect": ["Attack Boost"]
+  },
+  {
+    "name": "Water Bomb",
+    "id": 687,
+    "level": 92,
+    "cost": 2,
+    "element": 5,
+    "effect": ["Silence"],
+    "nuke": true
+  },
+  {
+    "name": "Searing Tempest",
+    "id": 719,
+    "level": 99,
+    "cost": 8,
+    "element": 0,
+    "effect": ["Burn"],
+    "nuke": true
+  },
+  {
+    "name": "Frenetic Rip",
+    "id": 560,
+    "level": 63,
+    "cost": 3,
+    "element": 15,
+    "effect": [],
+    "sca": "Induration"
+  },
+  {
+    "name": "Blank Gaze",
+    "id": 592,
+    "level": 38,
+    "cost": 2,
+    "element": 6,
+    "effect": ["Dispel"],
+    "voidwatch": true
+  },
+  {
+    "name": "Acrid Stream",
+    "id": 656,
+    "level": 77,
+    "cost": 3,
+    "element": 5,
+    "effect": ["Magic Defense Down"],
+    "voidwatch": true,
+    "nuke": true
+  },
+  {
+    "name": "Heavy Strike",
+    "id": 688,
+    "level": 92,
+    "cost": 2,
+    "element": 15,
+    "effect": [],
+    "sca": "Fragmentation",
+    "scb": "Transfixion"
+  },
+  {
+    "name": "Spectral Floe",
+    "id": 720,
+    "level": 99,
+    "cost": 8,
+    "element": 1,
+    "effect": ["Terror"],
+    "nuke": true
+  },
+  {
+    "name": "Bludgeon",
+    "id": 529,
+    "level": 18,
+    "cost": 2,
+    "element": 15,
+    "effect": [],
+    "sca": "Liquifaction"
+  },
+  {
+    "name": "Frightful Roar",
+    "id": 561,
+    "level": 50,
+    "cost": 3,
+    "element": 2,
+    "effect": ["Defense Down"]
+  },
+  {
+    "name": "Magic Fruit",
+    "id": 593,
+    "level": 58,
+    "cost": 3,
+    "element": 6,
+    "effect": ["Cure"]
+  },
+  {
+    "name": "Blazing Bound",
+    "id": 657,
+    "level": 80,
+    "cost": 3,
+    "element": 0,
+    "effect": [],
+    "nuke": true
+  },
+  {
+    "name": "Dark Orb",
+    "id": 689,
+    "level": 93,
+    "cost": 3,
+    "element": 7,
+    "effect": [],
+    "nuke": true
+  },
+  {
+    "name": "Anvil Lightning",
+    "id": 721,
+    "level": 99,
+    "cost": 8,
+    "element": 4,
+    "effect": ["Stun"],
+    "nuke": true
+  },
+  {
+    "name": "Refueling",
+    "id": 530,
+    "level": 48,
+    "cost": 4,
+    "element": 2,
+    "effect": ["Haste"]
+  },
+  {
+    "name": "Uppercut",
+    "id": 594,
+    "level": 38,
+    "cost": 3,
+    "element": 15,
+    "effect": [],
+    "sca": "Liquifaction"
+  },
+  {
+    "name": "Bomb Toss",
+    "id": 626,
+    "level": 28,
+    "cost": 3,
+    "element": 0,
+    "effect": [],
+    "nuke": true
+  },
+  {
+    "name": "Plenilune Embrace",
+    "id": 658,
+    "level": 76,
+    "cost": 4,
+    "element": 6,
+    "effect": ["Cure"]
+  },
+  {
+    "name": "White Wind",
+    "id": 690,
+    "level": 94,
+    "cost": 5,
+    "element": 2,
+    "effect": ["Cure"]
+  },
+  {
+    "name": "Entomb",
+    "id": 722,
+    "level": 99,
+    "cost": 8,
+    "element": 3,
+    "effect": ["Petrify"],
+    "nuke": true
+  },
+  {
+    "name": "Ice Break",
+    "id": 531,
+    "level": 50,
+    "cost": 3,
+    "element": 1,
+    "effect": ["Bind"],
+    "voidwatch": true,
+    "abyssea": true,
+    "nuke": true
+  },
+  {
+    "name": "Hecatomb Wave",
+    "id": 563,
+    "level": 54,
+    "cost": 3,
+    "element": 2,
+    "effect": ["Blind"],
+    "voidwatch": true,
+    "nuke": true
+  },
+  {
+    "name": "1000 Needles",
+    "id": 595,
+    "level": 62,
+    "cost": 5,
+    "element": 6,
+    "effect": [],
+    "nuke": true
+  },
+  {
+    "name": "Demoralizing Roar",
+    "id": 659,
+    "level": 80,
+    "cost": 4,
+    "element": 5,
+    "effect": []
+  },
+  {
+    "name": "Saurian Slide",
+    "id": 723,
+    "level": 99,
+    "cost": 7,
+    "element": 15,
+    "effect": ["Attack Down"],
+    "sca": "Fragmentation",
+    "scb": "Distortion"
+  },
+  {
+    "name": "Blitzstrahl",
+    "id": 532,
+    "level": 44,
+    "cost": 4,
+    "element": 4,
+    "effect": ["Stun"],
+    "voidwatch": true,
+    "nuke": true
+  },
+  {
+    "name": "Body Slam",
+    "id": 564,
+    "level": 62,
+    "cost": 4,
+    "element": 15,
+    "effect": [],
+    "sca": "Impaction"
+  },
+  {
+    "name": "Pinecone Bomb",
+    "id": 596,
+    "level": 36,
+    "cost": 2,
+    "element": 15,
+    "effect": ["Sleep"],
+    "sca": "Liquifaction"
+  },
+  {
+    "name": "Frypan",
+    "id": 628,
+    "level": 63,
+    "cost": 3,
+    "element": 15,
+    "effect": ["Stun"],
+    "sca": "Impaction"
+  },
+  {
+    "name": "Cimicine Discharge",
+    "id": 660,
+    "level": 78,
+    "cost": 3,
+    "element": 3,
+    "effect": ["Slow"],
+    "voidwatch": true
+  },
+  {
+    "name": "Sudden Lunge",
+    "id": 692,
+    "level": 95,
+    "cost": 4,
+    "element": 15,
+    "effect": ["Stun"],
+    "sca": "Detonation",
+    "scb": "Impaction"
+  },
+  {
+    "name": "Palling Salvo",
+    "id": 724,
+    "level": 99,
+    "cost": 7,
+    "element": 7,
+    "effect": ["Bio"],
+    "nuke": true
+  },
+  {
+    "name": "Self-Destruct",
+    "id": 533,
+    "level": 50,
+    "cost": 3,
+    "element": 0,
+    "effect": [],
+    "nuke": true
+  },
+  {
+    "name": "Radiant Breath",
+    "id": 565,
+    "level": 54,
+    "cost": 4,
+    "element": 6,
+    "effect": ["Slow", "Silence"],
+    "voidwatch": true,
+    "abyssea": true,
+    "nuke": true
+  },
+  {
+    "name": "Sprout Smack",
+    "id": 597,
+    "level": 4,
+    "cost": 2,
+    "element": 15,
+    "effect": ["Slow"],
+    "sca": "Reverberation"
+  },
+  {
+    "name": "Flying Hip Press",
+    "id": 629,
+    "level": 58,
+    "cost": 3,
+    "element": 2,
+    "effect": [],
+    "nuke": true
+  },
+  {
+    "name": "Animating Wail",
+    "id": 661,
+    "level": 79,
+    "cost": 5,
+    "element": 2,
+    "effect": ["Haste"]
+  },
+  {
+    "name": "Quadrastrike",
+    "id": 693,
+    "level": 96,
+    "cost": 5,
+    "element": 15,
+    "effect": [],
+    "sca": "Liquifaction",
+    "scb": "Scission"
+  },
+  {
+    "name": "Blinding Fulgor",
+    "id": 725,
+    "level": 99,
+    "cost": 8,
+    "element": 6,
+    "effect": ["Flash"],
+    "nuke": true
+  },
+  {
+    "name": "Mysterious Light",
+    "id": 534,
+    "level": 40,
+    "cost": 4,
+    "element": 2,
+    "effect": ["Gravity"],
+    "voidwatch": true,
+    "abyssea": true,
+    "nuke": true
+  },
+  {
+    "name": "Soporific",
+    "id": 598,
+    "level": 24,
+    "cost": 4,
+    "element": 7,
+    "effect": ["Sleep"]
+  },
+  {
+    "name": "Battery Charge",
+    "id": 662,
+    "level": 79,
+    "cost": 3,
+    "element": 6,
+    "effect": ["Refresh"]
+  },
+  {
+    "name": "Vapor Spray",
+    "id": 694,
+    "level": 96,
+    "cost": 3,
+    "element": 5,
+    "effect": [],
+    "nuke": true
+  },
+  {
+    "name": "Scouring Spate",
+    "id": 726,
+    "level": 99,
+    "cost": 8,
+    "element": 5,
+    "effect": ["Attack Down"],
+    "nuke": true
+  },
+  {
+    "name": "Cold Wave",
+    "id": 535,
+    "level": 52,
+    "cost": 1,
+    "element": 1,
+    "effect": ["Frost"],
+    "voidwatch": true
+  },
+  {
+    "name": "Helldive",
+    "id": 567,
+    "level": 16,
+    "cost": 2,
+    "element": 15,
+    "effect": [],
+    "sca": "Transfixion"
+  },
+  {
+    "name": "Queasyshroom",
+    "id": 599,
+    "level": 8,
+    "cost": 2,
+    "element": 15,
+    "effect": ["Poison"],
+    "sca": "Compression"
+  },
+  {
+    "name": "Hydro Shot",
+    "id": 631,
+    "level": 63,
+    "cost": 3,
+    "element": 15,
+    "effect": [],
+    "sca": "Reverberation"
+  },
+  {
+    "name": "Leafstorm",
+    "id": 663,
+    "level": 77,
+    "cost": 4,
+    "element": 2,
+    "effect": [],
+    "voidwatch": true,
+    "nuke": true
+  },
+  {
+    "name": "Thunder Breath",
+    "id": 695,
+    "level": 97,
+    "cost": 4,
+    "element": 4,
+    "effect": [],
+    "nuke": true
+  },
+  {
+    "name": "Silent Storm",
+    "id": 727,
+    "level": 99,
+    "cost": 8,
+    "element": 2,
+    "effect": ["Silence"],
+    "nuke": true
+  },
+  {
+    "name": "Poison Breath",
+    "id": 536,
+    "level": 22,
+    "cost": 1,
+    "element": 5,
+    "effect": ["Poison"],
+    "nuke": true
+  },
+  {
+    "name": "Diamondhide",
+    "id": 632,
+    "level": 67,
+    "cost": 3,
+    "element": 3,
+    "effect": ["Stoneskin"]
+  },
+  {
+    "name": "Regeneration",
+    "id": 664,
+    "level": 78,
+    "cost": 2,
+    "element": 6,
+    "effect": ["Regen"]
+  },
+  {
+    "name": "O. Counterstance",
+    "id": 696,
+    "level": 98,
+    "cost": 5,
+    "element": 0,
+    "effect": ["Counter"]
+  },
+  {
+    "name": "Tenebral Crush",
+    "id": 728,
+    "level": 99,
+    "cost": 8,
+    "element": 7,
+    "effect": ["Defense Down"],
+    "nuke": true
+  },
+  {
+    "name": "Stinking Gas",
+    "id": 537,
+    "level": 44,
+    "cost": 2,
+    "element": 2,
+    "effect": ["Vit Down"]
+  },
+  {
+    "name": "Jet Stream",
+    "id": 569,
+    "level": 38,
+    "cost": 4,
+    "element": 15,
+    "effect": [],
+    "sca": "Impaction"
+  },
+  {
+    "name": "Enervation",
+    "id": 633,
+    "level": 67,
+    "cost": 5,
+    "element": 7,
+    "effect": ["Defense Down", "Magic Defense Down"]
+  },
+  {
+    "name": "Final Sting",
+    "id": 665,
+    "level": 81,
+    "cost": 1,
+    "element": 15,
+    "effect": [],
+    "sca": "Fusion"
+  },
+  {
+    "name": "Amorphic Spikes",
+    "id": 697,
+    "level": 98,
+    "cost": 4,
+    "element": 15,
+    "effect": [],
+    "sca": "Gravitation",
+    "scb": "Transfixion"
+  },
+  {
+    "name": "Memento Mori",
+    "id": 538,
+    "level": 62,
+    "cost": 4,
+    "element": 1,
+    "effect": ["Magic Attack Boost"]
+  },
+  {
+    "name": "Blood Drain",
+    "id": 570,
+    "level": 20,
+    "cost": 2,
+    "element": 7,
+    "effect": ["Drain"],
+    "nuke": true
+  },
+  {
+    "name": "Light of Penance",
+    "id": 634,
+    "level": 58,
+    "cost": 5,
+    "element": 6,
+    "effect": ["Blind", "Bind", "Reduce TP"],
+    "voidwatch": true
+  },
+  {
+    "name": "Goblin Rush",
+    "id": 666,
+    "level": 81,
+    "cost": 3,
+    "element": 15,
+    "effect": [],
+    "sca": "Fusion"
+  },
+  {
+    "name": "Wind Breath",
+    "id": 698,
+    "level": 99,
+    "cost": 2,
+    "element": 2,
+    "effect": [],
+    "nuke": true
+  },
+  {
+    "name": "Terror Touch",
+    "id": 539,
+    "level": 40,
+    "cost": 3,
+    "element": 15,
+    "effect": ["Attack Down"],
+    "sca": "Compression",
+    "scb": "Reverberation"
+  },
+  {
+    "name": "Wild Oats",
+    "id": 603,
+    "level": 4,
+    "cost": 3,
+    "element": 15,
+    "effect": ["Vit Down"],
+    "sca": "Transfixion"
+  },
+  {
+    "name": "Vanity Dive",
+    "id": 667,
+    "level": 82,
+    "cost": 2,
+    "element": 15,
+    "effect": [],
+    "sca": "Scission"
+  },
+  {
+    "name": "Barbed Crescent",
+    "id": 699,
+    "level": 99,
+    "cost": 2,
+    "element": 15,
+    "effect": ["Accuracy Down"],
+    "sca": "Distortion",
+    "scb": "Liquifaction"
+  },
+  {
+    "name": "Spinal Cleave",
+    "id": 540,
+    "level": 63,
+    "cost": 4,
+    "element": 15,
+    "effect": [],
+    "sca": "Scission",
+    "scb": "Detonation"
+  },
+  {
+    "name": "Sound Blast",
+    "id": 572,
+    "level": 32,
+    "cost": 1,
+    "element": 0,
+    "effect": ["Int Down"]
+  },
+  {
+    "name": "Bad Breath",
+    "id": 604,
+    "level": 61,
+    "cost": 5,
+    "element": 3,
+    "effect": [
+      "Poison",
+      "Blind",
+      "Silence",
+      "Slow",
+      "Paralyze",
+      "Bind",
+      "Gravity"
+    ],
+    "voidwatch": true
+  },
+  {
+    "name": "Warm-Up",
+    "id": 636,
+    "level": 68,
+    "cost": 4,
+    "element": 3,
+    "effect": ["Accuracy Boost", "Evasion Boost"]
+  },
+  {
+    "name": "Magic Barrier",
+    "id": 668,
+    "level": 82,
+    "cost": 3,
+    "element": 7,
+    "effect": ["Stoneskin"]
+  },
+  {
+    "name": "Nat. Meditation",
+    "id": 700,
+    "level": 99,
+    "cost": 6,
+    "element": 0,
+    "effect": ["Attack Boost"]
+  },
+  {
+    "name": "Blood Saber",
+    "id": 541,
+    "level": 48,
+    "cost": 2,
+    "element": 7,
+    "effect": ["Drain"],
+    "nuke": true
+  },
+  {
+    "name": "Feather Tickle",
+    "id": 573,
+    "level": 64,
+    "cost": 3,
+    "element": 2,
+    "effect": ["Reduce TP"],
+    "sca": "Transfixion"
+  },
+  {
+    "name": "Geist Wall",
+    "id": 605,
+    "level": 46,
+    "cost": 3,
+    "element": 7,
+    "effect": ["Dispel"]
+  },
+  {
+    "name": "Firespit",
+    "id": 637,
+    "level": 68,
+    "cost": 5,
+    "element": 0,
+    "effect": [],
+    "voidwatch": true,
+    "nuke": true
+  },
+  {
+    "name": "Whirl of Rage",
+    "id": 669,
+    "level": 83,
+    "cost": 2,
+    "element": 15,
+    "effect": ["Stun"],
+    "sca": "Scission",
+    "scb": "Detonation"
+  },
+  {
+    "name": "Tem. Upheaval",
+    "id": 701,
+    "level": 99,
+    "cost": 6,
+    "element": 2,
+    "effect": [],
+    "nuke": true
+  },
+  {
+    "name": "Digest",
+    "id": 542,
+    "level": 36,
+    "cost": 2,
+    "element": 7,
+    "effect": ["Drain"],
+    "nuke": true
+  },
+  {
+    "name": "Feather Barrier",
+    "id": 574,
+    "level": 56,
+    "cost": 2,
+    "element": 2,
+    "effect": ["Evasion Boost"]
+  },
+  {
+    "name": "Awful Eye",
+    "id": 606,
+    "level": 46,
+    "cost": 2,
+    "element": 5,
+    "effect": ["Str Down"]
+  },
+  {
+    "name": "Feather Storm",
+    "id": 638,
+    "level": 12,
+    "cost": 3,
+    "element": 15,
+    "effect": ["Poison"],
+    "sca": "Transfixion"
+  },
+  {
+    "name": "Benthic Typhoon",
+    "id": 670,
+    "level": 83,
+    "cost": 4,
+    "element": 15,
+    "effect": ["Defense Down"],
+    "sca": "Gravitation",
+    "scb": "Transfixion"
+  },
+  {
+    "name": "Rending Deluge",
+    "id": 702,
+    "level": 99,
+    "cost": 6,
+    "element": 5,
+    "effect": ["Dispel"],
+    "nuke": true
+  },
+  {
+    "name": "Mandibular Bite",
+    "id": 543,
+    "level": 44,
+    "cost": 2,
+    "element": 15,
+    "effect": [],
+    "sca": "Induration"
+  },
+  {
+    "name": "Jettatura",
+    "id": 575,
+    "level": 48,
+    "cost": 4,
+    "element": 7,
+    "effect": ["Terror"]
+  },
+  {
+    "name": "Auroral Drape",
+    "id": 671,
+    "level": 84,
+    "cost": 4,
+    "element": 2,
+    "effect": ["Silence", "Blind"]
+  },
+  {
+    "name": "Embalming Earth",
+    "id": 703,
+    "level": 99,
+    "cost": 6,
+    "element": 3,
+    "effect": ["Slow"],
+    "nuke": true
+  },
+  {
+    "name": "Cursed Sphere",
+    "id": 544,
+    "level": 18,
+    "cost": 2,
+    "element": 5,
+    "effect": ["Poison"],
+    "voidwatch": true
+  },
+  {
+    "name": "Yawn",
+    "id": 576,
+    "level": 64,
+    "cost": 3,
+    "element": 6,
+    "effect": ["Sleep"]
+  },
+  {
+    "name": "Frost Breath",
+    "id": 608,
+    "level": 66,
+    "cost": 3,
+    "element": 1,
+    "effect": ["Paralyze"],
+    "voidwatch": true,
+    "nuke": true
+  },
+  {
+    "name": "Tail Slap",
+    "id": 640,
+    "level": 69,
+    "cost": 4,
+    "element": 15,
+    "effect": ["Stun"],
+    "sca": "Reverberation"
+  },
+  {
+    "name": "Osmosis",
+    "id": 672,
+    "level": 84,
+    "cost": 5,
+    "element": 7,
+    "effect": ["Drain"],
+    "nuke": true
+  },
+  {
+    "name": "Paralyzing Triad",
+    "id": 704,
+    "level": 99,
+    "cost": 6,
+    "element": 15,
+    "effect": ["Paralyze"],
+    "sca": "Gravitation"
+  },
+  {
+    "name": "Venom Shell",
+    "id": 513,
+    "level": 42,
+    "cost": 3,
+    "element": 5,
+    "effect": ["Poison"]
+  },
+  {
+    "name": "Sickle Slash",
+    "id": 545,
+    "level": 48,
+    "cost": 4,
+    "element": 15,
+    "effect": [],
+    "sca": "Compression"
+  },
+  {
+    "name": "Foot Kick",
+    "id": 577,
+    "level": 1,
+    "cost": 2,
+    "element": 15,
+    "effect": [],
+    "sca": "Detonation"
+  },
+  {
+    "name": "Hysteric Barrage",
+    "id": 641,
+    "level": 69,
+    "cost": 5,
+    "element": 15,
+    "effect": [],
+    "sca": "Detonation"
+  },
+  {
+    "name": "Quad. Continuum",
+    "id": 673,
+    "level": 85,
+    "cost": 4,
+    "element": 15,
+    "effect": [],
+    "sca": "Gravitation"
+  },
+  {
+    "name": "Foul Waters",
+    "id": 705,
+    "level": 99,
+    "cost": 3,
+    "element": 5,
+    "effect": ["Drown"],
+    "nuke": true
+  },
+  {
+    "name": "Wild Carrot",
+    "id": 578,
+    "level": 30,
+    "cost": 3,
+    "element": 6,
+    "effect": ["Cure"]
+  },
+  {
+    "name": "Infrasonics",
+    "id": 610,
+    "level": 65,
+    "cost": 4,
+    "element": 1,
+    "effect": ["Evasion Down"],
+    "voidwatch": true
+  },
+  {
+    "name": "Amplification",
+    "id": 642,
+    "level": 70,
+    "cost": 3,
+    "element": 5,
+    "effect": ["Magic Attack Boost"]
+  },
+  {
+    "name": "Fantod",
+    "id": 674,
+    "level": 85,
+    "cost": 1,
+    "element": 0,
+    "effect": ["Attack Boost"]
+  },
+  {
+    "name": "Glutinous Dart",
+    "id": 706,
+    "level": 99,
+    "cost": 2,
+    "element": 15,
+    "effect": [],
+    "sca": "Fragmentation"
+  },
+  {
+    "name": "Maelstrom",
+    "id": 515,
+    "level": 61,
+    "cost": 5,
+    "element": 5,
+    "effect": ["Str Down"],
+    "voidwatch": true,
+    "abyssea": true,
+    "nuke": true
+  },
+  {
+    "name": "Cocoon",
+    "id": 547,
+    "level": 8,
+    "cost": 1,
+    "element": 3,
+    "effect": ["Defense Boost"]
+  },
+  {
+    "name": "Voracious Trunk",
+    "id": 579,
+    "level": 64,
+    "cost": 4,
+    "element": 2,
+    "effect": ["Dispel"]
+  },
+  {
+    "name": "Disseverment",
+    "id": 611,
+    "level": 72,
+    "cost": 5,
+    "element": 15,
+    "effect": ["Poison"],
+    "sca": "Distortion"
+  },
+  {
+    "name": "Cannonball",
+    "id": 643,
+    "level": 70,
+    "cost": 3,
+    "element": 15,
+    "effect": [],
+    "sca": "Fusion"
+  },
+  {
+    "name": "Thermal Pulse",
+    "id": 675,
+    "level": 86,
+    "cost": 3,
+    "element": 0,
+    "effect": ["Blind"],
+    "voidwatch": true,
+    "nuke": true
+  },
+  {
+    "name": "Retinal Glare",
+    "id": 707,
+    "level": 99,
+    "cost": 5,
+    "element": 6,
+    "effect": ["Flash"],
+    "nuke": true
+  },
+  {
+    "name": "Filamented Hold",
+    "id": 548,
+    "level": 52,
+    "cost": 3,
+    "element": 3,
+    "effect": ["Slow"]
+  },
+  {
+    "name": "Actinic Burst",
+    "id": 612,
+    "level": 74,
+    "cost": 4,
+    "element": 6,
+    "effect": ["Flash"],
+    "voidwatch": true
+  },
+  {
+    "name": "Mind Blast",
+    "id": 644,
+    "level": 73,
+    "cost": 4,
+    "element": 4,
+    "effect": ["Paralyze"],
+    "voidwatch": true,
+    "abyssea": true,
+    "nuke": true
+  },
+  {
+    "name": "Subduction",
+    "id": 708,
+    "level": 99,
+    "cost": 6,
+    "element": 2,
+    "effect": ["Gravity"],
+    "nuke": true
+  },
+  {
+    "name": "Metallic Body",
+    "id": 517,
+    "level": 8,
+    "cost": 1,
+    "element": 3,
+    "effect": ["Stoneskin"]
+  },
+  {
+    "name": "Pollen",
+    "id": 549,
+    "level": 1,
+    "cost": 1,
+    "element": 6,
+    "effect": ["Cure"]
+  },
+  {
+    "name": "Healing Breeze",
+    "id": 581,
+    "level": 16,
+    "cost": 4,
+    "element": 2,
+    "effect": ["Cure"]
+  },
+  {
+    "name": "Reactor Cool",
+    "id": 613,
+    "level": 74,
+    "cost": 5,
+    "element": 1,
+    "effect": ["Defense Boost", "Spikes"]
+  },
+  {
+    "name": "Exuviation",
+    "id": 645,
+    "level": 75,
+    "cost": 4,
+    "element": 0,
+    "effect": ["Erase"]
+  },
+  {
+    "name": "Empty Thrash",
+    "id": 677,
+    "level": 87,
+    "cost": 3,
+    "element": 15,
+    "effect": [],
+    "sca": "Compression",
+    "scb": "Scission"
+  },
+  {
+    "name": "Thrashing Assault",
+    "id": 709,
+    "level": 99,
+    "cost": 7,
+    "element": 15,
+    "effect": [],
+    "sca": "Fusion"
+  },
+  {
+    "name": "Chaotic Eye",
+    "id": 582,
+    "level": 32,
+    "cost": 2,
+    "element": 2,
+    "effect": ["Silence"]
+  },
+  {
+    "name": "Saline Coat",
+    "id": 614,
+    "level": 72,
+    "cost": 3,
+    "element": 6,
+    "effect": ["Magic Defense Boost"]
+  },
+  {
+    "name": "Magic Hammer",
+    "id": 646,
+    "level": 74,
+    "cost": 4,
+    "element": 6,
+    "effect": ["Aspir"],
+    "nuke": true
+  },
+  {
+    "name": "Dream Flower",
+    "id": 678,
+    "level": 87,
+    "cost": 3,
+    "element": 7,
+    "effect": ["Sleep"]
+  },
+  {
+    "name": "Erratic Flutter",
+    "id": 710,
+    "level": 99,
+    "cost": 6,
+    "element": 2,
+    "effect": ["Haste"]
+  },
+  {
+    "name": "Screwdriver",
+    "id": 519,
+    "level": 26,
+    "cost": 3,
+    "element": 15,
+    "effect": [],
+    "sca": "Transfixion",
+    "scb": "Scission"
+  },
+  {
+    "name": "Power Attack",
+    "id": 551,
+    "level": 4,
+    "cost": 1,
+    "element": 15,
+    "effect": [],
+    "sca": "Reverberation"
+  },
+  {
+    "name": "Plasma Charge",
+    "id": 615,
+    "level": 75,
+    "cost": 5,
+    "element": 4,
+    "effect": ["Spikes"]
+  },
+  {
+    "name": "Zephyr Mantle",
+    "id": 647,
+    "level": 65,
+    "cost": 2,
+    "element": 2,
+    "effect": ["Blink"]
+  },
+  {
+    "name": "Occultation",
+    "id": 679,
+    "level": 88,
+    "cost": 3,
+    "element": 2,
+    "effect": ["Blink"]
+  },
+  {
+    "name": "Restoral",
+    "id": 711,
+    "level": 99,
+    "cost": 7,
+    "element": 6,
+    "effect": ["Cure"]
+  }
+]

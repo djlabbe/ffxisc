@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Accuracy Bonus",
+    "spells": [
+      { "name": "Dimensional Death", "points": 4, "cost": 5, "id": 589 },
+      { "name": "Frenetic Rip", "points": 4, "cost": 3, "id": 560 },
+      { "name": "Disseverment", "points": 4, "cost": 5, "id": 611 },
+      { "name": "Vanity Dive", "points": 4, "cost": 2, "id": 667 },
+      { "name": "Nat. Meditation", "points": 8, "cost": 6, "id": 700 },
+      { "name": "Anvil Lightning", "points": 8, "cost": 8, "id": 721 }
+    ],
+    "tierValues": [10, 22, 35, 48, 60, 72]
+  },
+  {
+    "name": "Attack Bonus",
+    "spells": [
+      { "name": "Battle Dance", "points": 4, "cost": 3, "id": 620 },
+      { "name": "Uppercut", "points": 4, "cost": 3, "id": 594 },
+      { "name": "Death Scissors", "points": 4, "cost": 5, "id": 554 },
+      { "name": "Spinal Cleave", "points": 4, "cost": 4, "id": 540 },
+      { "name": "Temporal Shift", "points": 4, "cost": 5, "id": 616 },
+      { "name": "Thermal Pulse", "points": 4, "cost": 3, "id": 675 },
+      { "name": "Embalming Earth", "points": 8, "cost": 6, "id": 703 },
+      { "name": "Searing Tempest", "points": 8, "cost": 8, "id": 719 }
+    ],
+    "tierValues": [10, 22, 35, 48, 60, 72]
+  },
+  {
+    "name": "Auto Refresh",
+    "spells": [
+      { "name": "Stinking Gas", "points": 1, "cost": 2, "id": 537 },
+      { "name": "Frightful Roar", "points": 2, "cost": 3, "id": 561 },
+      { "name": "Self-Destruct", "points": 2, "cost": 3, "id": 533 },
+      { "name": "Cold Wave", "points": 1, "cost": 1, "id": 535 },
+      { "name": "Light of Penance", "points": 2, "cost": 5, "id": 634 },
+      { "name": "Voracious Trunk", "points": 3, "cost": 4, "id": 579 },
+      { "name": "Actinic Burst", "points": 4, "cost": 4, "id": 612 },
+      { "name": "Plasma Charge", "points": 4, "cost": 5, "id": 615 },
+      { "name": "Winds of Promy.", "points": 4, "cost": 5, "id": 681 }
+    ],
+    "tierValues": [1]
+  },
+  {
+    "name": "Auto Regen",
+    "spells": [
+      { "name": "Sheep Song", "points": 4, "cost": 2, "id": 584 },
+      { "name": "Healing Breeze", "points": 4, "cost": 4, "id": 581 },
+      { "name": "White Wind", "points": 4, "cost": 5, "id": 690 }
+    ],
+    "tierValues": [1, 2, 3]
+  },
+  {
+    "name": "Beast Killer",
+    "spells": [
+      { "name": "Wild Oats", "points": 4, "cost": 3, "id": 603 },
+      { "name": "Sprout Smack", "points": 4, "cost": 2, "id": 597 },
+      { "name": "Seedspray", "points": 4, "cost": 4, "id": 650 },
+      { "name": "1000 Needles", "points": 4, "cost": 5, "id": 595 },
+      { "name": "Nectarous Deluge", "points": 8, "cost": 6, "id": 716 }
+    ],
+    "tierValues": ["I"]
+  },
+  {
+    "name": "Clear Mind",
+    "spells": [
+      { "name": "Poison Breath", "points": 4, "cost": 1, "id": 536 },
+      { "name": "Sopoforic", "points": 4, "cost": 4, "id": 598 },
+      { "name": "Venom Shell", "points": 4, "cost": 3, "id": 513 },
+      { "name": "Awful Eye", "points": 4, "cost": 2, "id": 606 },
+      { "name": "Filamented Hold", "points": 4, "cost": 3, "id": 548 },
+      { "name": "Maelstrom", "points": 4, "cost": 5, "id": 515 },
+      { "name": "Feather Tickle", "points": 4, "cost": 3, "id": 573 },
+      { "name": "Corrosive Ooze", "points": 4, "cost": 4, "id": 651 },
+      { "name": "Sandspray", "points": 4, "cost": 2, "id": 621 },
+      { "name": "Warm-Up", "points": 4, "cost": 4, "id": 636 },
+      { "name": "Lowing", "points": 4, "cost": 2, "id": 588 },
+      { "name": "Mind Blast", "points": 4, "cost": 4, "id": 644 }
+    ],
+    "tierValues": [3, 6, 9, 12, 15]
+  },
+  {
+    "name": "Conserve MP",
+    "spells": [
+      { "name": "Chaotic Eye", "points": 4, "cost": 2, "id": 582 },
+      { "name": "Zephyr Mantle", "points": 4, "cost": 2, "id": 647 },
+      { "name": "Frost Breath", "points": 4, "cost": 3, "id": 608 },
+      { "name": "Firespit", "points": 4, "cost": 5, "id": 637 },
+      { "name": "Water Bomb", "points": 4, "cost": 2, "id": 687 },
+      { "name": "Retinal Glare", "points": 8, "cost": 6, "id": 707 }
+    ],
+    "tierValues": [25, 28, 31, 34, 37]
+  },
+  {
+    "name": "Counter",
+    "spells": [
+      { "name": "Enervation", "points": 4, "cost": 5, "id": 633 },
+      { "name": "Asuran Claws", "points": 4, "cost": 2, "id": 653 },
+      { "name": "Dark Orb", "points": 4, "cost": 3, "id": 689 },
+      { "name": "O. Counterstance", "points": 4, "cost": 5, "id": 696 }
+    ],
+    "tierValues": [10, 12]
+  },
+  {
+    "name": "Defense Bonus",
+    "spells": [
+      { "name": "Grand Slam", "points": 4, "cost": 2, "id": 622 },
+      { "name": "Terror Touch", "points": 4, "cost": 3, "id": 539 },
+      { "name": "Saline Coat", "points": 4, "cost": 3, "id": 614 },
+      { "name": "Vertical Cleave", "points": 4, "cost": 3, "id": 617 },
+      { "name": "Atra. Libations", "points": 8, "cost": 6, "id": 718 },
+      { "name": "Entomb", "points": 8, "cost": 8, "id": 722 }
+    ],
+    "tierValues": [10, 22, 35, 48, 60, 72]
+  },
+  {
+    "name": "Double/Triple Attack",
+    "spells": [
+      { "name": "Acrid Stream", "points": 4, "cost": 3, "id": 656 },
+      { "name": "Demoralizing Roar", "points": 4, "cost": 4, "id": 659 },
+      { "name": "Empty Thrash", "points": 4, "cost": 3, "id": 677 },
+      { "name": "Heavy Strike", "points": 4, "cost": 2, "id": 688 },
+      { "name": "Thrashing Assault", "points": 8, "cost": 7, "id": 709 }
+    ],
+    "tierValues": ["DA", "TA"]
+  },
+  {
+    "name": "Dual Wield",
+    "spells": [
+      { "name": "Animating Wail", "points": 4, "cost": 5, "id": 661 },
+      { "name": "Blazing Bound", "points": 4, "cost": 3, "id": 657 },
+      { "name": "Quad. Continuum", "points": 4, "cost": 4, "id": 673 },
+      { "name": "Delta Thrust", "points": 4, "cost": 2, "id": 682 },
+      { "name": "Mortal Ray", "points": 4, "cost": 4, "id": 686 },
+      { "name": "Barbed Crescent", "points": 4, "cost": 2, "id": 699 },
+      { "name": "Molting Plumage", "points": 8, "cost": 6, "id": 715 }
+    ],
+    "tierValues": [10, 15, 25, 30, 35]
+  },
+  {
+    "name": "Evasion Bonus",
+    "spells": [
+      { "name": "Screwdriver", "points": 4, "cost": 3, "id": 519 },
+      { "name": "Hysteric Barrage", "points": 4, "cost": 5, "id": 641 },
+      { "name": "Occultation", "points": 4, "cost": 3, "id": 679 },
+      { "name": "Tem. Upheaval", "points": 8, "cost": 6, "id": 701 },
+      { "name": "Silent Storm", "points": 8, "cost": 8, "id": 727 }
+    ],
+    "tierValues": [10, 22, 35, 48, 60]
+  },
+  {
+    "name": "Fast Cast",
+    "spells": [
+      { "name": "Bad Breath", "points": 4, "cost": 5, "id": 604 },
+      { "name": "Sub-Zero Smash", "points": 4, "cost": 4, "id": 654 },
+      { "name": "Auroral Drape", "points": 4, "cost": 4, "id": 671 },
+      { "name": "Wind Breath", "points": 4, "cost": 2, "id": 698 },
+      { "name": "Erratic Flutter", "points": 8, "cost": 6, "id": 710 }
+    ],
+    "tierValues": [5, 10, 15, 20, 25]
+  },
+  {
+    "name": "Gilfinder/TH",
+    "spells": [
+      { "name": "Charged Whisker", "points": 6, "cost": 5, "id": 680 },
+      { "name": "Evryone. Grudge", "points": 6, "cost": 4, "id": 683 },
+      { "name": "Amorphic Spikes", "points": 6, "cost": 4, "id": 697 }
+    ],
+    "tierValues": ["GF", "TH"]
+  },
+  {
+    "name": "Lizard Killer",
+    "spells": [
+      { "name": "Foot Kick", "points": 4, "cost": 2, "id": 577 },
+      { "name": "Claw Cyclone", "points": 4, "cost": 2, "id": 587 },
+      { "name": "Ram Charge", "points": 4, "cost": 4, "id": 585 },
+      { "name": "Sweeping Gouge", "points": 8, "cost": 6, "id": 717 }
+    ],
+    "tierValues": ["I"]
+  },
+  {
+    "name": "Magic Attack Bonus",
+    "spells": [
+      { "name": "Cursed Sphere", "points": 4, "cost": 2, "id": 544 },
+      { "name": "Sound Blast", "points": 4, "cost": 1, "id": 572 },
+      { "name": "Eyes On Me", "points": 4, "cost": 4, "id": 557 },
+      { "name": "Memento Mori", "points": 4, "cost": 4, "id": 538 },
+      { "name": "Heat Breath", "points": 4, "cost": 4, "id": 591 },
+      { "name": "Reactor Cool", "points": 4, "cost": 5, "id": 613 },
+      { "name": "Magic Hammer", "points": 4, "cost": 4, "id": 646 },
+      { "name": "Dream Flower", "points": 4, "cost": 3, "id": 678 },
+      { "name": "Subduction", "points": 8, "cost": 6, "id": 708 },
+      { "name": "Spectral Floe", "points": 8, "cost": 8, "id": 720 }
+    ],
+    "tierValues": [20, 24, 28, 32, 36, 40]
+  },
+  {
+    "name": "Magic Burst Bonus",
+    "spells": [
+      { "name": "Leafstorm", "points": 6, "cost": 4, "id": 663 },
+      { "name": "Cimicine Discharge", "points": 6, "cost": 3, "id": 660 },
+      { "name": "Reaving Wind", "points": 6, "cost": 4, "id": 684 },
+      { "name": "Rail Cannon", "points": 8, "cost": 6, "id": 712 }
+    ],
+    "tierValues": [5, 7, 9, 11, 13]
+  },
+  {
+    "name": "Magic Defense Bonus",
+    "spells": [
+      { "name": "Magnetite Cloud", "points": 4, "cost": 3, "id": 555 },
+      { "name": "Ice Break", "points": 4, "cost": 3, "id": 531 },
+      { "name": "Osmosis", "points": 4, "cost": 5, "id": 672 },
+      { "name": "Rending Deluge", "points": 8, "cost": 6, "id": 702 },
+      { "name": "Scouring Spate", "points": 8, "cost": 8, "id": 726 }
+    ],
+    "tierValues": [10, 12, 14, 16, 18]
+  },
+  {
+    "name": "Max HP Boost",
+    "spells": [
+      { "name": "Flying Hip Press", "points": 4, "cost": 3, "id": 629 },
+      { "name": "Body Slam", "points": 4, "cost": 4, "id": 564 },
+      { "name": "Frypan", "points": 4, "cost": 3, "id": 628 },
+      { "name": "Barrier Tusk", "points": 4, "cost": 3, "id": 685 },
+      { "name": "Thunder Breath", "points": 4, "cost": 4, "id": 695 },
+      { "name": "Glutinous Dart", "points": 4, "cost": 2, "id": 706 },
+      { "name": "Restoral", "points": 8, "cost": 7, "id": 711 }
+    ],
+    "tierValues": [30, 60, 120, 180, 240, 280]
+  },
+  {
+    "name": "Max MP Boost",
+    "spells": [
+      { "name": "Metallic Body", "points": 4, "cost": 1, "id": 517 },
+      { "name": "Mysterious Light", "points": 4, "cost": 4, "id": 534 },
+      { "name": "Hecatomb Wave", "points": 4, "cost": 3, "id": 563 },
+      { "name": "Magic Barrier", "points": 4, "cost": 3, "id": 668 },
+      { "name": "Vapor Spray", "points": 4, "cost": 3, "id": 694 }
+    ],
+    "tierValues": [10, 20, 40, 60]
+  },
+  {
+    "name": "Plantoid Killer",
+    "spells": [
+      { "name": "Power Attack", "points": 4, "cost": 1, "id": 551 },
+      { "name": "Mandibular Bite", "points": 4, "cost": 2, "id": 543 },
+      { "name": "Spiral Spin", "points": 4, "cost": 3, "id": 652 }
+    ],
+    "tierValues": ["I"]
+  },
+  {
+    "name": "Rapid Shot",
+    "spells": [
+      { "name": "Feather Storm", "points": 4, "cost": 3, "id": 638 },
+      { "name": "Jet Stream", "points": 4, "cost": 4, "id": 569 },
+      { "name": "Hydro Shot", "points": 4, "cost": 3, "id": 631 }
+    ],
+    "tierValues": ["I"]
+  },
+  {
+    "name": "Resist Silence",
+    "spells": [{ "name": "Foul Waters", "points": 8, "cost": 3, "id": 705 }],
+    "tierValues": ["I"]
+  },
+  {
+    "name": "Resist Gravity",
+    "spells": [
+      { "name": "Feather Barrier", "points": 4, "cost": 2, "id": 574 },
+      { "name": "Regurgitation", "points": 4, "cost": 1, "id": 648 }
+    ],
+    "tierValues": ["I", "II", "III"]
+  },
+  {
+    "name": "Resist Sleep",
+    "spells": [
+      { "name": "Pollen", "points": 4, "cost": 1, "id": 549 },
+      { "name": "Wild Carrot", "points": 4, "cost": 3, "id": 578 },
+      { "name": "Magic Fruit", "points": 4, "cost": 3, "id": 593 },
+      { "name": "Yawn", "points": 4, "cost": 3, "id": 576 },
+      { "name": "Exuviation", "points": 4, "cost": 4, "id": 645 }
+    ],
+    "tierValues": ["I", "II", "III", "IV"]
+  },
+  {
+    "name": "Skillchain Bonus",
+    "spells": [
+      { "name": "Goblin Rush", "points": 6, "cost": 3, "id": 666 },
+      { "name": "Benthic Typhoon", "points": 6, "cost": 4, "id": 670 },
+      { "name": "Quadrastrike", "points": 6, "cost": 5, "id": 693 },
+      { "name": "Paralyzing Triad", "points": 8, "cost": 6, "id": 704 }
+    ],
+    "tierValues": [8, 12, 16, 20, 23]
+  },
+  {
+    "name": "Store TP",
+    "spells": [
+      { "name": "Sickle Slash", "points": 4, "cost": 4, "id": 545 },
+      { "name": "Tail Slap", "points": 4, "cost": 4, "id": 640 },
+      { "name": "Fantod", "points": 4, "cost": 1, "id": 674 },
+      { "name": "Sudden Lunge", "points": 4, "cost": 4, "id": 692 },
+      { "name": "Diffusion Ray", "points": 8, "cost": 6, "id": 713 }
+    ],
+    "tierValues": [10, 15, 20, 25, 30]
+  },
+  {
+    "name": "Undead Killer",
+    "spells": [
+      { "name": "Bludgeon", "points": 4, "cost": 2, "id": 529 },
+      { "name": "Smite of Rage", "points": 4, "cost": 3, "id": 527 }
+    ],
+    "tierValues": ["I"]
+  },
+  {
+    "name": "Zanshin",
+    "spells": [
+      { "name": "Final Sting", "points": 4, "cost": 1, "id": 665 },
+      { "name": "Whirl of Rage", "points": 4, "cost": 2, "id": 669 }
+    ],
+    "tierValues": [15, 25, 35]
+  },
+  {
+    "name": "Critical Attack Bonus",
+    "spells": [{ "name": "Sinker Drill", "points": 8, "cost": 6, "id": 714 }],
+    "tierValues": [5, 8, 11]
+  },
+  {
+    "name": "Inquartata",
+    "spells": [{ "name": "Saurian Slide", "points": 8, "cost": 7, "id": 723 }],
+    "tierValues": [5, 7, 9]
+  },
+  {
+    "name": "Tenacity",
+    "spells": [{ "name": "Palling Salvo", "points": 8, "cost": 7, "id": 724 }],
+    "tierValues": [5, 7, 9]
+  },
+  {
+    "name": "Magic Accuracy Bonus",
+    "spells": [{ "name": "Tenebral Crush", "points": 8, "cost": 8, "id": 728 }],
+    "tierValues": ["I", "II", "III"]
+  },
+  {
+    "name": "Magic Evasion Bonus",
+    "spells": [
+      { "name": "Blinding Fulgor", "points": 8, "cost": 8, "id": 725 }
+    ],
+    "tierValues": ["I", "II", "III"]
+  },
+  {
+    "name": "Resist Slow",
+    "spells": [{ "name": "Refueling", "points": 4, "cost": 4, "id": 530 }],
+    "tierValues": ["I"]
+  }
+]
