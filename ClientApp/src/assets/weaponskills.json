@@ -1,5 +1,24 @@
 [
-    { "name": "Combo", "skill": "Hand-to-Hand", "skillchain": ["Impaction"] },
+    {
+        "name": "Combo",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Impaction"],
+        "jobs": [
+            { "MNK": 1 },
+            { "PUP": 1 },
+            { "WAR": 2 },
+            { "DNC": 2 },
+            { "NIN": 2 },
+            { "THF": 2 }
+        ],
+        "modifiers": [
+            { "Stat": "STR", "Value": 0.3 },
+            { "Stat": "DEX", "Value": 0.3 }
+        ],
+        "ftp": [1.0, 3.75, 5.5],
+        "ftpReplicating": true,
+        "class": "physical"
+    },
     {
         "name": "Shoulder Tackle",
         "skill": "Hand-to-Hand",
@@ -11,13 +30,20 @@
             { "DNC": 15 },
             { "NIN": 16 },
             { "THF": 16 }
-        ]
+        ],
+        "modifiers": [{ "Stat": "VIT", "Value": 1.0 }],
+        "ftp": [1.0, 1.0, 1.0],
+        "ftpReplicating": true,
+        "class": "physical"
     },
     {
         "name": "One Inch Punch",
         "skill": "Hand-to-Hand",
         "skillchain": ["Compression"],
-        "jobs": [{ "MNK": 24 }, { "PUP": 26 }]
+        "jobs": [{ "MNK": 24 }, { "PUP": 26 }],
+        "modifiers": [{ "Stat": "VIT", "Value": 1.0 }],
+        "ftpReplicating": true,
+        "ftp": [1.0, 1.0, 1.0]
     },
     {
         "name": "Backhand Blow",
