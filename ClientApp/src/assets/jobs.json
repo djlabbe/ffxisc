@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Warrior",
+        "abbr": "WAR"
+    },
+    {
+        "name": "Monk",
+        "abbr": "MNK"
+    },
+    {
+        "name": "White Mage",
+        "abbr": "WHM"
+    },
+    {
+        "name": "Black Mage",
+        "abbr": "BLM"
+    },
+    {
+        "name": "Red Mage",
+        "abbr": "RDM"
+    },
+    {
+        "name": "Thief",
+        "abbr": "THF"
+    },
+    {
+        "name": "Paladin",
+        "abbr": "PLD"
+    },
+    {
+        "name": "Dark Knight",
+        "abbr": "DRK"
+    },
+    {
+        "name": "Beastmaster",
+        "abbr": "BST"
+    },
+    {
+        "name": "Bard",
+        "abbr": "BRD"
+    },
+    {
+        "name": "Ranger",
+        "abbr": "RNG"
+    },
+    {
+        "name": "Summoner",
+        "abbr": "SMN"
+    },
+    {
+        "name": "Samurai",
+        "abbr": "SAM"
+    },
+    {
+        "name": "Ninja",
+        "abbr": "NIN"
+    },
+    {
+        "name": "Dragoon",
+        "abbr": "DRG"
+    },
+    {
+        "name": "Blue Mage",
+        "abbr": "BLU"
+    },
+    {
+        "name": "Corsair",
+        "abbr": "COR"
+    },
+    {
+        "name": "Puppetmaster",
+        "abbr": "PUP"
+    },
+    {
+        "name": "Dancer",
+        "abbr": "DNC"
+    },
+    {
+        "name": "Scholar",
+        "abbr": "SCH"
+    },
+    {
+        "name": "Geomancer",
+        "abbr": "GEO"
+    },
+    {
+        "name": "Rune Fencer",
+        "abbr": "RUN"
+    }
+]

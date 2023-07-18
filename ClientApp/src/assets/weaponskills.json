@@ -1,785 +1,935 @@
 [
-  { "name": "Combo", "skill": "Hand-To-Hand", "skillchain": ["Impaction"] },
-  {
-    "name": "Shoulder Tackle",
-    "skill": "Hand-To-Hand",
-    "skillchain": ["Reverberation", "Impaction"]
-  },
-  {
-    "name": "One Inch Punch",
-    "skill": "Hand-To-Hand",
-    "skillchain": ["Compression"]
-  },
-  {
-    "name": "Backhand Blow",
-    "skill": "Hand-To-Hand",
-    "skillchain": ["Detonation"]
-  },
-  {
-    "name": "Raging Fists",
-    "skill": "Hand-To-Hand",
-    "skillchain": ["Impaction"]
-  },
-  {
-    "name": "Spinning Attack",
-    "skill": "Hand-To-Hand",
-    "skillchain": ["Liquefaction", "Impaction"]
-  },
-  {
-    "name": "Howling Fist",
-    "skill": "Hand-To-Hand",
-    "skillchain": ["Transfixion", "Impaction"]
-  },
-  {
-    "name": "Dragon Kick",
-    "skill": "Hand-To-Hand",
-    "skillchain": ["Fragmentation"]
-  },
-  {
-    "name": "Asuran Fists",
-    "skill": "Hand-To-Hand",
-    "skillchain": ["Gravitation", "Liquefaction"]
-  },
-  {
-    "name": "Final Heaven",
-    "skill": "Hand-To-Hand",
-    "skillchain": ["Light", "Fusion"]
-  },
-  {
-    "name": "Ascetic's Fury",
-    "skill": "Hand-To-Hand",
-    "skillchain": ["Fusion", "Transfixion"]
-  },
-  {
-    "name": "Stringing Pummel",
-    "skill": "Hand-To-Hand",
-    "skillchain": ["Gravitation", "Liquefaction"]
-  },
-  {
-    "name": "Tornado Kick",
-    "skill": "Hand-To-Hand",
-    "skillchain": ["Induration", "Detonation", "Impaction"]
-  },
-  {
-    "name": "Victory Smite",
-    "skill": "Hand-To-Hand",
-    "skillchain": ["Light", "Fragmentation"]
-  },
-  {
-    "name": "Shijin Spiral",
-    "skill": "Hand-To-Hand",
-    "skillchain": ["Fusion", "Reverberation"],
-    "aeonic": "Light",
-    "weapon": "Godhand"
-  },
-  { "name": "Wasp Sting", "skill": "Dagger", "skillchain": ["Scission"] },
-  { "name": "Viper Bite", "skill": "Dagger", "skillchain": ["Scission"] },
-  {
-    "name": "Shadowstitch",
-    "skill": "Dagger",
-    "skillchain": ["Reverberation"]
-  },
-  { "name": "Gust Slash", "skill": "Dagger", "skillchain": ["Detonation"] },
-  {
-    "name": "Cyclone",
-    "skill": "Dagger",
-    "skillchain": ["Detonation", "Impaction"]
-  },
-  {
-    "name": "Dancing Edge",
-    "skill": "Dagger",
-    "skillchain": ["Scission", "Detonation"]
-  },
-  { "name": "Shark Bite", "skill": "Dagger", "skillchain": ["Fragmentation"] },
-  {
-    "name": "Evisceration",
-    "skill": "Dagger",
-    "skillchain": ["Gravitation", "Transfixion"]
-  },
-  {
-    "name": "Mercy Stroke",
-    "skill": "Dagger",
-    "skillchain": ["Darkness", "Gravitation"]
-  },
-  {
-    "name": "Mandalic Stab",
-    "skill": "Dagger",
-    "skillchain": ["Fusion", "Compression"]
-  },
-  {
-    "name": "Mordant Rime",
-    "skill": "Dagger",
-    "skillchain": ["Fragmentation", "Distortion"]
-  },
-  {
-    "name": "Pyrrhic Kleos",
-    "skill": "Dagger",
-    "skillchain": ["Distortion", "Scission"]
-  },
-  {
-    "name": "Aeolian Edge",
-    "skill": "Dagger",
-    "skillchain": ["Scission", "Detonation", "Impaction"]
-  },
-  {
-    "name": "Rudra's Storm",
-    "skill": "Dagger",
-    "skillchain": ["Darkness", "Distortion"]
-  },
-  {
-    "name": "Exenterator",
-    "skillchain": ["Fragmentation", "Scission"],
-    "skill": "Dagger",
-    "aeonic": "Light",
-    "weapon": "Aeneas"
-  },
-  { "name": "Fast Blade", "skill": "Sword", "skillchain": ["Scission"] },
-  { "name": "Burning Blade", "skill": "Sword", "skillchain": ["Liquefaction"] },
-  {
-    "name": "Red Lotus Blade",
-    "skill": "Sword",
-    "skillchain": ["Liquefaction", "Detonation"]
-  },
-  { "name": "Flat Blade", "skill": "Sword", "skillchain": ["Impaction"] },
-  { "name": "Shining Blade", "skill": "Sword", "skillchain": ["Scission"] },
-  { "name": "Seraph Blade", "skill": "Sword", "skillchain": ["Scission"] },
-  {
-    "name": "Circle Blade",
-    "skill": "Sword",
-    "skillchain": ["Reverberation", "Impaction"]
-  },
-  {
-    "name": "Vorpal Blade",
-    "skill": "Sword",
-    "skillchain": ["Scission", "Impaction"]
-  },
-  { "name": "Swift Blade", "skill": "Sword", "skillchain": ["Gravitation"] },
-  {
-    "name": "Savage Blade",
-    "skill": "Sword",
-    "skillchain": ["Fragmentation", "Scission"]
-  },
-  {
-    "name": "Knights of Round",
-    "skill": "Sword",
-    "skillchain": ["Light", "Fusion"]
-  },
-  {
-    "name": "Death Blossom",
-    "skill": "Sword",
-    "skillchain": ["Fragmentation", "Distortion"]
-  },
-  {
-    "name": "Atonement",
-    "skill": "Sword",
-    "skillchain": ["Fusion", "Reverberation"]
-  },
-  {
-    "name": "Expiacion",
-    "skill": "Sword",
-    "skillchain": ["Distortion", "Scission"]
-  },
-  { "name": "Chant du Cygne", "skill": "Sword", "skillchain": ["Light", "Distortion"] },
-  {
-    "name": "Requiescat",
-    "skill": "Sword",
-    "skillchain": ["Gravitation", "Scission"],
-    "aeonic": "Darkness",
-    "weapon": "Sequence"
-  },
-  { "name": "Hard Slash", "skill": "Great Sword", "skillchain": ["Scission"] },
-  {
-    "name": "Power Slash",
-    "skill": "Great Sword",
-    "skillchain": ["Transfixion"]
-  },
-  { "name": "Frostbite", "skill": "Great Sword", "skillchain": ["Induration"] },
-  {
-    "name": "Freezebite",
-    "skill": "Great Sword",
-    "skillchain": ["Induration", "Detonation"]
-  },
-  {
-    "name": "Shockwave",
-    "skill": "Great Sword",
-    "skillchain": ["Reverberation"]
-  },
-  {
-    "name": "Crescent Moon",
-    "skill": "Great Sword",
-    "skillchain": ["Scission"]
-  },
-  {
-    "name": "Sickle Moon",
-    "skill": "Great Sword",
-    "skillchain": ["Scission", "Impaction"]
-  },
-  {
-    "name": "Spinning Slash",
-    "skill": "Great Sword",
-    "skillchain": ["Fragmentation"]
-  },
-  {
-    "name": "Ground Strike",
-    "skill": "Great Sword",
-    "skillchain": ["Fragmentation", "Distortion"]
-  },
-  {
-    "name": "Scourge",
-    "skill": "Great Sword",
-    "skillchain": ["Light", "Fusion"]
-  },
-  {
-    "name": "Herculean Slash",
-    "skill": "Great Sword",
-    "skillchain": ["Induration", "Detonation", "Impaction"]
-  },
-  {
-    "name": "Torcleaver",
-    "skill": "Great Sword",
-    "skillchain": ["Light", "Distortion"]
-  },
-  {
-    "name": "Resolution",
-    "skill": "Great Sword",
-    "skillchain": ["Fragmentation", "Scission"],
-    "aeonic": "Light",
-    "weapon": "Lionheart"
-  },
-  {
-    "name": "Dimidiation",
-    "skill": "Great Sword",
-    "skillchain": ["Light", "Fragmentation"]
-  },
-  {
-    "name": "Raging Axe",
-    "skill": "Axe",
-    "skillchain": ["Detonation", "Impaction"]
-  },
-  {
-    "name": "Smash Axe",
-    "skill": "Axe",
-    "skillchain": ["Induration", "Reverberation"]
-  },
-  { "name": "Gale Axe", "skill": "Axe", "skillchain": ["Detonation"] },
-  {
-    "name": "Avalanche Axe",
-    "skill": "Axe",
-    "skillchain": ["Scission", "Impaction"]
-  },
-  {
-    "name": "Spinning Axe",
-    "skill": "Axe",
-    "skillchain": ["Liquefaction", "Scission", "Impaction"]
-  },
-  { "name": "Rampage", "skill": "Axe", "skillchain": ["Scission"] },
-  {
-    "name": "Calamity",
-    "skill": "Axe",
-    "skillchain": ["Scission", "Impaction"]
-  },
-  { "name": "Mistral Axe", "skill": "Axe", "skillchain": ["Fusion"] },
-  {
-    "name": "Decimation",
-    "skill": "Axe",
-    "skillchain": ["Fusion", "Reverberation"]
-  },
-  {
-    "name": "Onslaught",
-    "skill": "Axe",
-    "skillchain": ["Darkness", "Gravitation"]
-  },
-  {
-    "name": "Primal Rend",
-    "skill": "Axe",
-    "skillchain": ["Gravitation", "Reverberation"]
-  },
-  {
-    "name": "Bora Axe",
-    "skill": "Axe",
-    "skillchain": ["Scission", "Detonation"]
-  },
-  {
-    "name": "Cloudsplitter",
-    "skill": "Axe",
-    "skillchain": ["Darkness", "Fragmentation"]
-  },
-  {
-    "name": "Ruinator",
-    "skill": "Axe",
-    "skillchain": ["Distortion", "Detonation"],
-    "aeonic": "Darkness",
-    "weapon": "Tri-Edge"
-  },
-  { "name": "Shield Break", "skill": "Great Axe", "skillchain": ["Impaction"] },
-  { "name": "Iron Tempest", "skill": "Great Axe", "skillchain": ["Scission"] },
-  {
-    "name": "Sturmwind",
-    "skill": "Great Axe",
-    "skillchain": ["Reverberation", "Scission"]
-  },
-  { "name": "Armor Break", "skill": "Great Axe", "skillchain": ["Impaction"] },
-  { "name": "Keen Edge", "skill": "Great Axe", "skillchain": ["Compression"] },
-  { "name": "Weapon Break", "skill": "Great Axe", "skillchain": ["Impaction"] },
-  {
-    "name": "Raging Rush",
-    "skill": "Great Axe",
-    "skillchain": ["Induration", "Reverberation"]
-  },
-  { "name": "Full Break", "skill": "Great Axe", "skillchain": ["Distortion"] },
-  {
-    "name": "Steel Cyclone",
-    "skill": "Great Axe",
-    "skillchain": ["Distortion", "Detonation"]
-  },
-  {
-    "name": "Metatron Torment",
-    "skill": "Great Axe",
-    "skillchain": ["Light", "Fusion"]
-  },
-  {
-    "name": "King's Justice",
-    "skill": "Great Axe",
-    "skillchain": ["Fragmentation", "Scission"]
-  },
-  {
-    "name": "Fell Cleave",
-    "skill": "Great Axe",
-    "skillchain": ["Scission", "Detonation", "Impaction"]
-  },
-  {
-    "name": "Ukko's Fury",
-    "skill": "Great Axe",
-    "skillchain": ["Light", "Fragmentation"]
-  },
-  {
-    "name": "Upheaval",
-    "skill": "Great Axe",
-    "skillchain": ["Fusion", "Compression"],
-    "aeonic": "Light",
-    "weapon": "Chango"
-  },
-  { "name": "Slice", "skill": "Scythe", "skillchain": ["Scission"] },
-  {
-    "name": "Dark Harvest",
-    "skill": "Scythe",
-    "skillchain": ["Reverberation"]
-  },
-  {
-    "name": "Shadow of Death",
-    "skill": "Scythe",
-    "skillchain": ["Induration", "Reverberation"]
-  },
-  {
-    "name": "Nightmare Scythe",
-    "skill": "Scythe",
-    "skillchain": ["Compression", "Scission"]
-  },
-  {
-    "name": "Spinning Scythe",
-    "skill": "Scythe",
-    "skillchain": ["Reverberation", "Scission"]
-  },
-  {
-    "name": "Vorpal Scythe",
-    "skill": "Scythe",
-    "skillchain": ["Transfixion", "Scission"]
-  },
-  { "name": "Guillotine", "skill": "Scythe", "skillchain": ["Induration"] },
-  { "name": "Cross Reaper", "skill": "Scythe", "skillchain": ["Distortion"] },
-  {
-    "name": "Spiral Hell",
-    "skill": "Scythe",
-    "skillchain": ["Distortion", "Scission"]
-  },
-  {
-    "name": "Catastrophe",
-    "skill": "Scythe",
-    "skillchain": ["Darkness", "Gravitation"]
-  },
-  {
-    "name": "Insurgency",
-    "skill": "Scythe",
-    "skillchain": ["Fusion", "Compression"]
-  },
-  {
-    "name": "Infernal Scythe",
-    "skill": "Scythe",
-    "skillchain": ["Compression", "Reverberation"]
-  },
-  {
-    "name": "Quietus",
-    "skill": "Scythe",
-    "skillchain": ["Darkness", "Distortion"]
-  },
-  {
-    "name": "Entropy",
-    "skill": "Scythe",
-    "skillchain": ["Gravitation", "Reverberation"],
-    "aeonic": "Darkness",
-    "weapon": "Anguta"
-  },
-  {
-    "name": "Double Thrust",
-    "skill": "Polearm",
-    "skillchain": ["Transfixion"]
-  },
-  {
-    "name": "Thunder Thrust",
-    "skill": "Polearm",
-    "skillchain": ["Transfixion", "Impaction"]
-  },
-  {
-    "name": "Raiden Thrust",
-    "skill": "Polearm",
-    "skillchain": ["Transfixion", "Impaction"]
-  },
-  { "name": "Leg Sweep", "skill": "Polearm", "skillchain": ["Impaction"] },
-  { "name": "Penta Thrust", "skill": "Polearm", "skillchain": ["Compression"] },
-  {
-    "name": "Vorpal Thrust",
-    "skill": "Polearm",
-    "skillchain": ["Reverberation", "Transfixion"]
-  },
-  {
-    "name": "Skewer",
-    "skill": "Polearm",
-    "skillchain": ["Transfixion", "Impaction"]
-  },
-  { "name": "Wheeling Thrust", "skill": "Polearm", "skillchain": ["Fusion"] },
-  {
-    "name": "Impulse Drive",
-    "skill": "Polearm",
-    "skillchain": ["Gravitation", "Induration"]
-  },
-  {
-    "name": "Geirskogul",
-    "skill": "Polearm",
-    "skillchain": ["Light", "Distortion"]
-  },
-  {
-    "name": "Drakesbane",
-    "skill": "Polearm",
-    "skillchain": ["Fusion", "Transfixion"]
-  },
-  {
-    "name": "Sonic Thrust",
-    "skill": "Polearm",
-    "skillchain": ["Transfixion", "Scission"]
-  },
-  {
-    "name": "Camlann's Torment",
-    "skill": "Polearm",
-    "skillchain": ["Light", "Fragmentation"]
-  },
-  {
-    "name": "Stardiver",
-    "skill": "Polearm",
-    "skillchain": ["Gravitation", "Transfixion"],
-    "aeonic": "Darkness",
-    "weapon": "Trishula"
-  },
-  { "name": "Blade: Rin", "skill": "Katana", "skillchain": ["Transfixion"] },
-  { "name": "Blade: Retsu", "skill": "Katana", "skillchain": ["Scission"] },
-  { "name": "Blade: Teki", "skill": "Katana", "skillchain": ["Reverberation"] },
-  {
-    "name": "Blade: To",
-    "skill": "Katana",
-    "skillchain": ["Induration", "Detonation"]
-  },
-  {
-    "name": "Blade: Chi",
-    "skill": "Katana",
-    "skillchain": ["Transfixion", "Impaction"]
-  },
-  { "name": "Blade: Ei", "skill": "Katana", "skillchain": ["Compression"] },
-  {
-    "name": "Blade: Jin",
-    "skill": "Katana",
-    "skillchain": ["Detonation", "Impaction"]
-  },
-  { "name": "Blade: Ten", "skill": "Katana", "skillchain": ["Gravitation"] },
-  {
-    "name": "Blade: Ku",
-    "skill": "Katana",
-    "skillchain": ["Gravitation", "Transfixion"]
-  },
-  {
-    "name": "Blade: Metsu",
-    "skill": "Katana",
-    "skillchain": ["Darkness", "Fragmentation"]
-  },
-  {
-    "name": "Blade: Kamu",
-    "skill": "Katana",
-    "skillchain": ["Fragmentation", "Compression"]
-  },
-  {
-    "name": "Blade: Yu",
-    "skill": "Katana",
-    "skillchain": ["Reverberation", "Scission"]
-  },
-  {
-    "name": "Blade: Hi",
-    "skill": "Katana",
-    "skillchain": ["Darkness", "Gravitation"]
-  },
-  {
-    "name": "Blade: Shun",
-    "skill": "Katana",
-    "skillchain": ["Fusion", "Impaction"],
-    "aeonic": "Light",
-    "weapon": "Heishi Shorinken"
-  },
-  {
-    "name": "Tachi: Enpi",
-    "skill": "Great Katana",
-    "skillchain": ["Transfixion", "Scission"]
-  },
-  {
-    "name": "Tachi: Hobaku",
-    "skill": "Great Katana",
-    "skillchain": ["Induration"]
-  },
-  {
-    "name": "Tachi: Goten",
-    "skill": "Great Katana",
-    "skillchain": ["Transfixion", "Impaction"]
-  },
-  {
-    "name": "Tachi: Kagero",
-    "skill": "Great Katana",
-    "skillchain": ["Liquefaction"]
-  },
-  {
-    "name": "Tachi: Jinpu",
-    "skill": "Great Katana",
-    "skillchain": ["Scission", "Detonation"]
-  },
-  {
-    "name": "Tachi: Koki",
-    "skill": "Great Katana",
-    "skillchain": ["Reverberation", "Impaction"]
-  },
-  {
-    "name": "Tachi: Yukikaze",
-    "skill": "Great Katana",
-    "skillchain": ["Induration", "Detonation"]
-  },
-  {
-    "name": "Tachi: Gekko",
-    "skill": "Great Katana",
-    "skillchain": ["Distortion", "Reverberation"]
-  },
-  {
-    "name": "Tachi: Kasha",
-    "skill": "Great Katana",
-    "skillchain": ["Fusion", "Compression"]
-  },
-  {
-    "name": "Tachi: Kaiten",
-    "skill": "Great Katana",
-    "skillchain": ["Light", "Fragmentation"]
-  },
-  {
-    "name": "Tachi: Rana",
-    "skill": "Great Katana",
-    "skillchain": ["Gravitation", "Induration"]
-  },
-  {
-    "name": "Tachi: Ageha",
-    "skill": "Great Katana",
-    "skillchain": ["Compression", "Scission"]
-  },
-  {
-    "name": "Tachi: Fudo",
-    "skill": "Great Katana",
-    "skillchain": ["Light", "Distortion"]
-  },
-  {
-    "name": "Tachi: Shoha",
-    "skill": "Great Katana",
-    "skillchain": ["Fragmentation", "Compression"],
-    "aeonic": "Light",
-    "weapon": "Dojikiri Yasutsuna"
-  },
-  { "name": "Shining Strike", "skill": "Club", "skillchain": ["Impaction"] },
-  { "name": "Seraph Strike", "skill": "Club", "skillchain": ["Impaction"] },
-  { "name": "Brainshaker", "skill": "Club", "skillchain": ["Reverberation"] },
-  {
-    "name": "Skullbreaker",
-    "skill": "Club",
-    "skillchain": ["Induration", "Reverberation"]
-  },
-  {
-    "name": "True Strike",
-    "skill": "Club",
-    "skillchain": ["Detonation", "Impaction"]
-  },
-  { "name": "Judgment", "skill": "Club", "skillchain": ["Impaction"] },
-  { "name": "Hexa Strike", "skill": "Club", "skillchain": ["Fusion"] },
-  {
-    "name": "Black Halo",
-    "skill": "Club",
-    "skillchain": ["Fragmentation", "Compression"]
-  },
-  {
-    "name": "Randgrith",
-    "skill": "Club",
-    "skillchain": ["Light", "Fragmentation"]
-  },
-  {
-    "name": "Flash Nova",
-    "skill": "Club",
-    "skillchain": ["Induration", "Reverberation"]
-  },
-  {
-    "name": "Realmrazer",
-    "skill": "Club",
-    "skillchain": ["Fusion", "Impaction"],
-    "aeonic": "Light",
-    "weapon": "Tishtrya"
-  },
-  {
-    "name": "Exudation",
-    "skill": "Club",
-    "skillchain": ["Darkness", "Fragmentation"]
-  },
-  { "name": "Heavy Swing", "skill": "Staff", "skillchain": ["Impaction"] },
-  { "name": "Rock Crusher", "skill": "Staff", "skillchain": ["Impaction"] },
-  {
-    "name": "Earth Crusher",
-    "skill": "Staff",
-    "skillchain": ["Detonation", "Impaction"]
-  },
-  {
-    "name": "Starburst",
-    "skill": "Staff",
-    "skillchain": ["Compression", "Reverberation"]
-  },
-  {
-    "name": "Sunburst",
-    "skill": "Staff",
-    "skillchain": ["Compression", "Reverberation"]
-  },
-  { "name": "Shell Crusher", "skill": "Staff", "skillchain": ["Detonation"] },
-  {
-    "name": "Full Swing",
-    "skill": "Staff",
-    "skillchain": ["Liquefaction", "Impaction"]
-  },
-  {
-    "name": "Retribution",
-    "skill": "Staff",
-    "skillchain": ["Gravitation", "Reverberation"]
-  },
-  {
-    "name": "Gate of Tartarus",
-    "skill": "Staff",
-    "skillchain": ["Darkness", "Distortion"]
-  },
-  {
-    "name": "Vidohunir",
-    "skill": "Staff",
-    "skillchain": ["Fragmentation", "Distortion"]
-  },
-  {
-    "name": "Garland of Bliss",
-    "skill": "Staff",
-    "skillchain": ["Fusion", "Reverberation"]
-  },
-  {
-    "name": "Omniscience",
-    "skill": "Staff",
-    "skillchain": ["Gravitation", "Transfixion"]
-  },
-  {
-    "name": "Cataclysm",
-    "skill": "Staff",
-    "skillchain": ["Compression", "Reverberation"]
-  },
-  {
-    "name": "Shattersoul",
-    "skill": "Staff",
-    "skillchain": ["Gravitation", "Induration"],
-    "aeonic": "Darkness",
-    "weapon": "Khatvanga"
-  },
-  {
-    "name": "Flaming Arrow",
-    "skill": "Archery",
-    "skillchain": ["Liquefaction", "Transfixion"]
-  },
-  {
-    "name": "Piercing Arrow",
-    "skill": "Archery",
-    "skillchain": ["Reverberation", "Transfixion"]
-  },
-  {
-    "name": "Dulling Arrow",
-    "skill": "Archery",
-    "skillchain": ["Liquefaction", "Transfixion"]
-  },
-  {
-    "name": "Sidewinder",
-    "skill": "Archery",
-    "skillchain": ["Reverberation", "Transfixion", "Detonation"]
-  },
-  {
-    "name": "Blast Arrow",
-    "skill": "Archery",
-    "skillchain": ["Induration", "Transfixion"]
-  },
-  { "name": "Arching Arrow", "skill": "Archery", "skillchain": ["Fusion"] },
-  {
-    "name": "Empyreal Arrow",
-    "skill": "Archery",
-    "skillchain": ["Fusion", "Transfixion"]
-  },
-  {
-    "name": "Namas Arrow",
-    "skill": "Archery",
-    "skillchain": ["Light", "Distortion"]
-  },
-  {
-    "name": "Refulgent Arrow",
-    "skill": "Archery",
-    "skillchain": ["Reverberation", "Transfixion"]
-  },
-  {
-    "name": "Jishnu's Radiance",
-    "skill": "Archery",
-    "skillchain": ["Light", "Fusion"]
-  },
-  {
-    "name": "Apex Arrow",
-    "skill": "Archery",
-    "skillchain": ["Fragmentation", "Transfixion"],
-    "aeonic": "Light",
-    "weapon": "Fail-Not"
-  },
-  { "name": "Hot Shot", "skill": "Marksmanship", "skillchain": ["Liquefaction", "Transfixion"] },
-  { "name": "Split Shot", "skill": "Marksmanship","skillchain": ["Reverberation", "Transfixion"] },
-  { "name": "Sniper Shot", "skill": "Marksmanship","skillchain": ["Liquefaction", "Transfixion"] },
-  {
-    "name": "Slug Shot",
-    "skill": "Marksmanship","skillchain": ["Reverberation", "Transfixion", "Detonation"]
-  },
-  { "name": "Blast Shot", "skill": "Marksmanship","skillchain": ["Induration", "Transfixion"] },
-  { "name": "Heavy Shot", "skill": "Marksmanship","skillchain": ["Fusion"] },
-  { "name": "Detonator", "skill": "Marksmanship","skillchain": ["Fusion", "Transfixion"] },
-  { "name": "Coronach", "skill": "Marksmanship","skillchain": ["Darkness", "Fragmentation"] },
-  { "name": "Trueflight", "skill": "Marksmanship","skillchain": ["Fragmentation", "Scission"] },
-  { "name": "Leaden Salute", "skill": "Marksmanship","skillchain": ["Gravitation", "Transfixion"] },
-  {
-    "name": "Numbing Shot",
-    "skill": "Marksmanship","skillchain": ["Induration", "Detonation", "Impaction"]
-  },
-  { "name": "Wildfire", "skill": "Marksmanship","skillchain": ["Darkness", "Gravitation"] },
-  {
-    "name": "Last Stand",
-    "skill": "Marksmanship","skillchain": ["Fusion", "Reverberation"],
-    "aeonic": "Light",
-    "weapon": "Fomalhaut"
-  }
+    { "name": "Combo", "skill": "Hand-to-Hand", "skillchain": ["Impaction"] },
+    {
+        "name": "Shoulder Tackle",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Reverberation", "Impaction"],
+        "jobs": [
+            { "MNK": 13 },
+            { "PUP": 14 },
+            { "WAR": 15 },
+            { "DNC": 15 },
+            { "NIN": 16 },
+            { "THF": 16 }
+        ]
+    },
+    {
+        "name": "One Inch Punch",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Compression"],
+        "jobs": [{ "MNK": 24 }, { "PUP": 26 }]
+    },
+    {
+        "name": "Backhand Blow",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Detonation"],
+        "jobs": [
+            { "MNK": 33 },
+            { "PUP": 35 },
+            { "WAR": 37 },
+            { "DNC": 37 },
+            { "NIN": 40 },
+            { "THF": 40 }
+        ]
+    },
+    {
+        "name": "Raging Fists",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Impaction"],
+        "jobs": [
+            { "MNK": 41 },
+            { "PUP": 44 },
+            { "WAR": 46 },
+            { "DNC": 46 },
+            { "NIN": 50 },
+            { "THF": 50 }
+        ]
+    },
+    {
+        "name": "Spinning Attack",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Liquefaction", "Impaction"],
+        "jobs": [
+            { "MNK": 49 },
+            { "PUP": 51 },
+            { "WAR": 53 },
+            { "DNC": 53 },
+            { "NIN": 56 },
+            { "THF": 56 }
+        ]
+    },
+    {
+        "name": "Howling Fist",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Transfixion", "Impaction"],
+        "jobs": [{ "MNK": 60 }, { "PUP": 62 }]
+    },
+    {
+        "name": "Dragon Kick",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Fragmentation"],
+        "jobs": [{ "MNK": 65 }, { "PUP": 68 }]
+    },
+    {
+        "name": "Asuran Fists",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Gravitation", "Liquefaction"],
+        "jobs": [
+            { "MNK": 71 },
+            { "PUP": 74 },
+            { "WAR": 99 },
+            { "RDM": 99 },
+            { "THF": 99 },
+            { "DRK": 99 },
+            { "BST": 99 },
+            { "NIN": 99 },
+            { "DNC": 99 }
+        ]
+    },
+    {
+        "name": "Final Heaven",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Light", "Fusion"],
+        "jobs": [{ "MNK": 65 }]
+    },
+    {
+        "name": "Ascetic's Fury",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Fusion", "Transfixion"],
+        "jobs": [{ "MNK": 75 }]
+    },
+    {
+        "name": "Stringing Pummel",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Gravitation", "Liquefaction"],
+        "jobs": [{ "PUP": 65 }]
+    },
+    {
+        "name": "Tornado Kick",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Induration", "Detonation", "Impaction"],
+        "jobs": [
+            { "MNK": 80 },
+            { "PUP": 84 },
+            { "WAR": 94 },
+            { "DNC": 94 },
+            { "NIN": 99 },
+            { "THF": 99 }
+        ]
+    },
+    {
+        "name": "Victory Smite",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Light", "Fragmentation"],
+        "jobs": [{ "MNK": 85 }, { "PUP": 85 }]
+    },
+    {
+        "name": "Shijin Spiral",
+        "skill": "Hand-to-Hand",
+        "skillchain": ["Fusion", "Reverberation"],
+        "aeonic": "Light",
+        "weapon": "Godhand",
+        "jobs": [{ "MNK": 90 }, { "PUP": 93 }]
+    },
+    { "name": "Wasp Sting", "skill": "Dagger", "skillchain": ["Scission"] },
+    { "name": "Viper Bite", "skill": "Dagger", "skillchain": ["Scission"] },
+    {
+        "name": "Shadowstitch",
+        "skill": "Dagger",
+        "skillchain": ["Reverberation"]
+    },
+    { "name": "Gust Slash", "skill": "Dagger", "skillchain": ["Detonation"] },
+    {
+        "name": "Cyclone",
+        "skill": "Dagger",
+        "skillchain": ["Detonation", "Impaction"]
+    },
+    {
+        "name": "Dancing Edge",
+        "skill": "Dagger",
+        "skillchain": ["Scission", "Detonation"]
+    },
+    {
+        "name": "Shark Bite",
+        "skill": "Dagger",
+        "skillchain": ["Fragmentation"]
+    },
+    {
+        "name": "Evisceration",
+        "skill": "Dagger",
+        "skillchain": ["Gravitation", "Transfixion"]
+    },
+    {
+        "name": "Mercy Stroke",
+        "skill": "Dagger",
+        "skillchain": ["Darkness", "Gravitation"]
+    },
+    {
+        "name": "Mandalic Stab",
+        "skill": "Dagger",
+        "skillchain": ["Fusion", "Compression"]
+    },
+    {
+        "name": "Mordant Rime",
+        "skill": "Dagger",
+        "skillchain": ["Fragmentation", "Distortion"]
+    },
+    {
+        "name": "Pyrrhic Kleos",
+        "skill": "Dagger",
+        "skillchain": ["Distortion", "Scission"]
+    },
+    {
+        "name": "Aeolian Edge",
+        "skill": "Dagger",
+        "skillchain": ["Scission", "Detonation", "Impaction"]
+    },
+    {
+        "name": "Rudra's Storm",
+        "skill": "Dagger",
+        "skillchain": ["Darkness", "Distortion"]
+    },
+    {
+        "name": "Exenterator",
+        "skillchain": ["Fragmentation", "Scission"],
+        "skill": "Dagger",
+        "aeonic": "Light",
+        "weapon": "Aeneas"
+    },
+    { "name": "Fast Blade", "skill": "Sword", "skillchain": ["Scission"] },
+    {
+        "name": "Burning Blade",
+        "skill": "Sword",
+        "skillchain": ["Liquefaction"]
+    },
+    {
+        "name": "Red Lotus Blade",
+        "skill": "Sword",
+        "skillchain": ["Liquefaction", "Detonation"]
+    },
+    { "name": "Flat Blade", "skill": "Sword", "skillchain": ["Impaction"] },
+    { "name": "Shining Blade", "skill": "Sword", "skillchain": ["Scission"] },
+    { "name": "Seraph Blade", "skill": "Sword", "skillchain": ["Scission"] },
+    {
+        "name": "Circle Blade",
+        "skill": "Sword",
+        "skillchain": ["Reverberation", "Impaction"]
+    },
+    {
+        "name": "Vorpal Blade",
+        "skill": "Sword",
+        "skillchain": ["Scission", "Impaction"]
+    },
+    { "name": "Swift Blade", "skill": "Sword", "skillchain": ["Gravitation"] },
+    {
+        "name": "Savage Blade",
+        "skill": "Sword",
+        "skillchain": ["Fragmentation", "Scission"]
+    },
+    {
+        "name": "Knights of Round",
+        "skill": "Sword",
+        "skillchain": ["Light", "Fusion"]
+    },
+    {
+        "name": "Death Blossom",
+        "skill": "Sword",
+        "skillchain": ["Fragmentation", "Distortion"]
+    },
+    {
+        "name": "Atonement",
+        "skill": "Sword",
+        "skillchain": ["Fusion", "Reverberation"]
+    },
+    {
+        "name": "Expiacion",
+        "skill": "Sword",
+        "skillchain": ["Distortion", "Scission"]
+    },
+    {
+        "name": "Chant du Cygne",
+        "skill": "Sword",
+        "skillchain": ["Light", "Distortion"]
+    },
+    {
+        "name": "Requiescat",
+        "skill": "Sword",
+        "skillchain": ["Gravitation", "Scission"],
+        "aeonic": "Darkness",
+        "weapon": "Sequence"
+    },
+    {
+        "name": "Hard Slash",
+        "skill": "Great Sword",
+        "skillchain": ["Scission"]
+    },
+    {
+        "name": "Power Slash",
+        "skill": "Great Sword",
+        "skillchain": ["Transfixion"]
+    },
+    {
+        "name": "Frostbite",
+        "skill": "Great Sword",
+        "skillchain": ["Induration"]
+    },
+    {
+        "name": "Freezebite",
+        "skill": "Great Sword",
+        "skillchain": ["Induration", "Detonation"]
+    },
+    {
+        "name": "Shockwave",
+        "skill": "Great Sword",
+        "skillchain": ["Reverberation"]
+    },
+    {
+        "name": "Crescent Moon",
+        "skill": "Great Sword",
+        "skillchain": ["Scission"]
+    },
+    {
+        "name": "Sickle Moon",
+        "skill": "Great Sword",
+        "skillchain": ["Scission", "Impaction"]
+    },
+    {
+        "name": "Spinning Slash",
+        "skill": "Great Sword",
+        "skillchain": ["Fragmentation"]
+    },
+    {
+        "name": "Ground Strike",
+        "skill": "Great Sword",
+        "skillchain": ["Fragmentation", "Distortion"]
+    },
+    {
+        "name": "Scourge",
+        "skill": "Great Sword",
+        "skillchain": ["Light", "Fusion"]
+    },
+    {
+        "name": "Herculean Slash",
+        "skill": "Great Sword",
+        "skillchain": ["Induration", "Detonation", "Impaction"]
+    },
+    {
+        "name": "Torcleaver",
+        "skill": "Great Sword",
+        "skillchain": ["Light", "Distortion"]
+    },
+    {
+        "name": "Resolution",
+        "skill": "Great Sword",
+        "skillchain": ["Fragmentation", "Scission"],
+        "aeonic": "Light",
+        "weapon": "Lionheart"
+    },
+    {
+        "name": "Dimidiation",
+        "skill": "Great Sword",
+        "skillchain": ["Light", "Fragmentation"]
+    },
+    {
+        "name": "Raging Axe",
+        "skill": "Axe",
+        "skillchain": ["Detonation", "Impaction"]
+    },
+    {
+        "name": "Smash Axe",
+        "skill": "Axe",
+        "skillchain": ["Induration", "Reverberation"]
+    },
+    { "name": "Gale Axe", "skill": "Axe", "skillchain": ["Detonation"] },
+    {
+        "name": "Avalanche Axe",
+        "skill": "Axe",
+        "skillchain": ["Scission", "Impaction"]
+    },
+    {
+        "name": "Spinning Axe",
+        "skill": "Axe",
+        "skillchain": ["Liquefaction", "Scission", "Impaction"]
+    },
+    { "name": "Rampage", "skill": "Axe", "skillchain": ["Scission"] },
+    {
+        "name": "Calamity",
+        "skill": "Axe",
+        "skillchain": ["Scission", "Impaction"]
+    },
+    { "name": "Mistral Axe", "skill": "Axe", "skillchain": ["Fusion"] },
+    {
+        "name": "Decimation",
+        "skill": "Axe",
+        "skillchain": ["Fusion", "Reverberation"]
+    },
+    {
+        "name": "Onslaught",
+        "skill": "Axe",
+        "skillchain": ["Darkness", "Gravitation"]
+    },
+    {
+        "name": "Primal Rend",
+        "skill": "Axe",
+        "skillchain": ["Gravitation", "Reverberation"]
+    },
+    {
+        "name": "Bora Axe",
+        "skill": "Axe",
+        "skillchain": ["Scission", "Detonation"]
+    },
+    {
+        "name": "Cloudsplitter",
+        "skill": "Axe",
+        "skillchain": ["Darkness", "Fragmentation"]
+    },
+    {
+        "name": "Ruinator",
+        "skill": "Axe",
+        "skillchain": ["Distortion", "Detonation"],
+        "aeonic": "Darkness",
+        "weapon": "Tri-Edge"
+    },
+    {
+        "name": "Shield Break",
+        "skill": "Great Axe",
+        "skillchain": ["Impaction"]
+    },
+    {
+        "name": "Iron Tempest",
+        "skill": "Great Axe",
+        "skillchain": ["Scission"]
+    },
+    {
+        "name": "Sturmwind",
+        "skill": "Great Axe",
+        "skillchain": ["Reverberation", "Scission"]
+    },
+    {
+        "name": "Armor Break",
+        "skill": "Great Axe",
+        "skillchain": ["Impaction"]
+    },
+    {
+        "name": "Keen Edge",
+        "skill": "Great Axe",
+        "skillchain": ["Compression"]
+    },
+    {
+        "name": "Weapon Break",
+        "skill": "Great Axe",
+        "skillchain": ["Impaction"]
+    },
+    {
+        "name": "Raging Rush",
+        "skill": "Great Axe",
+        "skillchain": ["Induration", "Reverberation"]
+    },
+    {
+        "name": "Full Break",
+        "skill": "Great Axe",
+        "skillchain": ["Distortion"]
+    },
+    {
+        "name": "Steel Cyclone",
+        "skill": "Great Axe",
+        "skillchain": ["Distortion", "Detonation"]
+    },
+    {
+        "name": "Metatron Torment",
+        "skill": "Great Axe",
+        "skillchain": ["Light", "Fusion"]
+    },
+    {
+        "name": "King's Justice",
+        "skill": "Great Axe",
+        "skillchain": ["Fragmentation", "Scission"]
+    },
+    {
+        "name": "Fell Cleave",
+        "skill": "Great Axe",
+        "skillchain": ["Scission", "Detonation", "Impaction"]
+    },
+    {
+        "name": "Ukko's Fury",
+        "skill": "Great Axe",
+        "skillchain": ["Light", "Fragmentation"]
+    },
+    {
+        "name": "Upheaval",
+        "skill": "Great Axe",
+        "skillchain": ["Fusion", "Compression"],
+        "aeonic": "Light",
+        "weapon": "Chango"
+    },
+    { "name": "Slice", "skill": "Scythe", "skillchain": ["Scission"] },
+    {
+        "name": "Dark Harvest",
+        "skill": "Scythe",
+        "skillchain": ["Reverberation"]
+    },
+    {
+        "name": "Shadow of Death",
+        "skill": "Scythe",
+        "skillchain": ["Induration", "Reverberation"]
+    },
+    {
+        "name": "Nightmare Scythe",
+        "skill": "Scythe",
+        "skillchain": ["Compression", "Scission"]
+    },
+    {
+        "name": "Spinning Scythe",
+        "skill": "Scythe",
+        "skillchain": ["Reverberation", "Scission"]
+    },
+    {
+        "name": "Vorpal Scythe",
+        "skill": "Scythe",
+        "skillchain": ["Transfixion", "Scission"]
+    },
+    { "name": "Guillotine", "skill": "Scythe", "skillchain": ["Induration"] },
+    { "name": "Cross Reaper", "skill": "Scythe", "skillchain": ["Distortion"] },
+    {
+        "name": "Spiral Hell",
+        "skill": "Scythe",
+        "skillchain": ["Distortion", "Scission"]
+    },
+    {
+        "name": "Catastrophe",
+        "skill": "Scythe",
+        "skillchain": ["Darkness", "Gravitation"]
+    },
+    {
+        "name": "Insurgency",
+        "skill": "Scythe",
+        "skillchain": ["Fusion", "Compression"]
+    },
+    {
+        "name": "Infernal Scythe",
+        "skill": "Scythe",
+        "skillchain": ["Compression", "Reverberation"]
+    },
+    {
+        "name": "Quietus",
+        "skill": "Scythe",
+        "skillchain": ["Darkness", "Distortion"]
+    },
+    {
+        "name": "Entropy",
+        "skill": "Scythe",
+        "skillchain": ["Gravitation", "Reverberation"],
+        "aeonic": "Darkness",
+        "weapon": "Anguta"
+    },
+    {
+        "name": "Double Thrust",
+        "skill": "Polearm",
+        "skillchain": ["Transfixion"]
+    },
+    {
+        "name": "Thunder Thrust",
+        "skill": "Polearm",
+        "skillchain": ["Transfixion", "Impaction"]
+    },
+    {
+        "name": "Raiden Thrust",
+        "skill": "Polearm",
+        "skillchain": ["Transfixion", "Impaction"]
+    },
+    { "name": "Leg Sweep", "skill": "Polearm", "skillchain": ["Impaction"] },
+    {
+        "name": "Penta Thrust",
+        "skill": "Polearm",
+        "skillchain": ["Compression"]
+    },
+    {
+        "name": "Vorpal Thrust",
+        "skill": "Polearm",
+        "skillchain": ["Reverberation", "Transfixion"]
+    },
+    {
+        "name": "Skewer",
+        "skill": "Polearm",
+        "skillchain": ["Transfixion", "Impaction"]
+    },
+    { "name": "Wheeling Thrust", "skill": "Polearm", "skillchain": ["Fusion"] },
+    {
+        "name": "Impulse Drive",
+        "skill": "Polearm",
+        "skillchain": ["Gravitation", "Induration"]
+    },
+    {
+        "name": "Geirskogul",
+        "skill": "Polearm",
+        "skillchain": ["Light", "Distortion"]
+    },
+    {
+        "name": "Drakesbane",
+        "skill": "Polearm",
+        "skillchain": ["Fusion", "Transfixion"]
+    },
+    {
+        "name": "Sonic Thrust",
+        "skill": "Polearm",
+        "skillchain": ["Transfixion", "Scission"]
+    },
+    {
+        "name": "Camlann's Torment",
+        "skill": "Polearm",
+        "skillchain": ["Light", "Fragmentation"]
+    },
+    {
+        "name": "Stardiver",
+        "skill": "Polearm",
+        "skillchain": ["Gravitation", "Transfixion"],
+        "aeonic": "Darkness",
+        "weapon": "Trishula"
+    },
+    { "name": "Blade: Rin", "skill": "Katana", "skillchain": ["Transfixion"] },
+    { "name": "Blade: Retsu", "skill": "Katana", "skillchain": ["Scission"] },
+    {
+        "name": "Blade: Teki",
+        "skill": "Katana",
+        "skillchain": ["Reverberation"]
+    },
+    {
+        "name": "Blade: To",
+        "skill": "Katana",
+        "skillchain": ["Induration", "Detonation"]
+    },
+    {
+        "name": "Blade: Chi",
+        "skill": "Katana",
+        "skillchain": ["Transfixion", "Impaction"]
+    },
+    { "name": "Blade: Ei", "skill": "Katana", "skillchain": ["Compression"] },
+    {
+        "name": "Blade: Jin",
+        "skill": "Katana",
+        "skillchain": ["Detonation", "Impaction"]
+    },
+    { "name": "Blade: Ten", "skill": "Katana", "skillchain": ["Gravitation"] },
+    {
+        "name": "Blade: Ku",
+        "skill": "Katana",
+        "skillchain": ["Gravitation", "Transfixion"]
+    },
+    {
+        "name": "Blade: Metsu",
+        "skill": "Katana",
+        "skillchain": ["Darkness", "Fragmentation"]
+    },
+    {
+        "name": "Blade: Kamu",
+        "skill": "Katana",
+        "skillchain": ["Fragmentation", "Compression"]
+    },
+    {
+        "name": "Blade: Yu",
+        "skill": "Katana",
+        "skillchain": ["Reverberation", "Scission"]
+    },
+    {
+        "name": "Blade: Hi",
+        "skill": "Katana",
+        "skillchain": ["Darkness", "Gravitation"]
+    },
+    {
+        "name": "Blade: Shun",
+        "skill": "Katana",
+        "skillchain": ["Fusion", "Impaction"],
+        "aeonic": "Light",
+        "weapon": "Heishi Shorinken"
+    },
+    {
+        "name": "Tachi: Enpi",
+        "skill": "Great Katana",
+        "skillchain": ["Transfixion", "Scission"]
+    },
+    {
+        "name": "Tachi: Hobaku",
+        "skill": "Great Katana",
+        "skillchain": ["Induration"]
+    },
+    {
+        "name": "Tachi: Goten",
+        "skill": "Great Katana",
+        "skillchain": ["Transfixion", "Impaction"]
+    },
+    {
+        "name": "Tachi: Kagero",
+        "skill": "Great Katana",
+        "skillchain": ["Liquefaction"]
+    },
+    {
+        "name": "Tachi: Jinpu",
+        "skill": "Great Katana",
+        "skillchain": ["Scission", "Detonation"]
+    },
+    {
+        "name": "Tachi: Koki",
+        "skill": "Great Katana",
+        "skillchain": ["Reverberation", "Impaction"]
+    },
+    {
+        "name": "Tachi: Yukikaze",
+        "skill": "Great Katana",
+        "skillchain": ["Induration", "Detonation"]
+    },
+    {
+        "name": "Tachi: Gekko",
+        "skill": "Great Katana",
+        "skillchain": ["Distortion", "Reverberation"]
+    },
+    {
+        "name": "Tachi: Kasha",
+        "skill": "Great Katana",
+        "skillchain": ["Fusion", "Compression"]
+    },
+    {
+        "name": "Tachi: Kaiten",
+        "skill": "Great Katana",
+        "skillchain": ["Light", "Fragmentation"]
+    },
+    {
+        "name": "Tachi: Rana",
+        "skill": "Great Katana",
+        "skillchain": ["Gravitation", "Induration"]
+    },
+    {
+        "name": "Tachi: Ageha",
+        "skill": "Great Katana",
+        "skillchain": ["Compression", "Scission"]
+    },
+    {
+        "name": "Tachi: Fudo",
+        "skill": "Great Katana",
+        "skillchain": ["Light", "Distortion"]
+    },
+    {
+        "name": "Tachi: Shoha",
+        "skill": "Great Katana",
+        "skillchain": ["Fragmentation", "Compression"],
+        "aeonic": "Light",
+        "weapon": "Dojikiri Yasutsuna"
+    },
+    { "name": "Shining Strike", "skill": "Club", "skillchain": ["Impaction"] },
+    { "name": "Seraph Strike", "skill": "Club", "skillchain": ["Impaction"] },
+    { "name": "Brainshaker", "skill": "Club", "skillchain": ["Reverberation"] },
+    {
+        "name": "Skullbreaker",
+        "skill": "Club",
+        "skillchain": ["Induration", "Reverberation"]
+    },
+    {
+        "name": "True Strike",
+        "skill": "Club",
+        "skillchain": ["Detonation", "Impaction"]
+    },
+    { "name": "Judgment", "skill": "Club", "skillchain": ["Impaction"] },
+    { "name": "Hexa Strike", "skill": "Club", "skillchain": ["Fusion"] },
+    {
+        "name": "Black Halo",
+        "skill": "Club",
+        "skillchain": ["Fragmentation", "Compression"]
+    },
+    {
+        "name": "Randgrith",
+        "skill": "Club",
+        "skillchain": ["Light", "Fragmentation"]
+    },
+    {
+        "name": "Flash Nova",
+        "skill": "Club",
+        "skillchain": ["Induration", "Reverberation"]
+    },
+    {
+        "name": "Realmrazer",
+        "skill": "Club",
+        "skillchain": ["Fusion", "Impaction"],
+        "aeonic": "Light",
+        "weapon": "Tishtrya"
+    },
+    {
+        "name": "Exudation",
+        "skill": "Club",
+        "skillchain": ["Darkness", "Fragmentation"]
+    },
+    { "name": "Heavy Swing", "skill": "Staff", "skillchain": ["Impaction"] },
+    { "name": "Rock Crusher", "skill": "Staff", "skillchain": ["Impaction"] },
+    {
+        "name": "Earth Crusher",
+        "skill": "Staff",
+        "skillchain": ["Detonation", "Impaction"]
+    },
+    {
+        "name": "Starburst",
+        "skill": "Staff",
+        "skillchain": ["Compression", "Reverberation"]
+    },
+    {
+        "name": "Sunburst",
+        "skill": "Staff",
+        "skillchain": ["Compression", "Reverberation"]
+    },
+    { "name": "Shell Crusher", "skill": "Staff", "skillchain": ["Detonation"] },
+    {
+        "name": "Full Swing",
+        "skill": "Staff",
+        "skillchain": ["Liquefaction", "Impaction"]
+    },
+    {
+        "name": "Retribution",
+        "skill": "Staff",
+        "skillchain": ["Gravitation", "Reverberation"]
+    },
+    {
+        "name": "Gate of Tartarus",
+        "skill": "Staff",
+        "skillchain": ["Darkness", "Distortion"]
+    },
+    {
+        "name": "Vidohunir",
+        "skill": "Staff",
+        "skillchain": ["Fragmentation", "Distortion"]
+    },
+    {
+        "name": "Garland of Bliss",
+        "skill": "Staff",
+        "skillchain": ["Fusion", "Reverberation"]
+    },
+    {
+        "name": "Omniscience",
+        "skill": "Staff",
+        "skillchain": ["Gravitation", "Transfixion"]
+    },
+    {
+        "name": "Cataclysm",
+        "skill": "Staff",
+        "skillchain": ["Compression", "Reverberation"]
+    },
+    {
+        "name": "Shattersoul",
+        "skill": "Staff",
+        "skillchain": ["Gravitation", "Induration"],
+        "aeonic": "Darkness",
+        "weapon": "Khatvanga"
+    },
+    {
+        "name": "Flaming Arrow",
+        "skill": "Archery",
+        "skillchain": ["Liquefaction", "Transfixion"]
+    },
+    {
+        "name": "Piercing Arrow",
+        "skill": "Archery",
+        "skillchain": ["Reverberation", "Transfixion"]
+    },
+    {
+        "name": "Dulling Arrow",
+        "skill": "Archery",
+        "skillchain": ["Liquefaction", "Transfixion"]
+    },
+    {
+        "name": "Sidewinder",
+        "skill": "Archery",
+        "skillchain": ["Reverberation", "Transfixion", "Detonation"]
+    },
+    {
+        "name": "Blast Arrow",
+        "skill": "Archery",
+        "skillchain": ["Induration", "Transfixion"]
+    },
+    { "name": "Arching Arrow", "skill": "Archery", "skillchain": ["Fusion"] },
+    {
+        "name": "Empyreal Arrow",
+        "skill": "Archery",
+        "skillchain": ["Fusion", "Transfixion"]
+    },
+    {
+        "name": "Namas Arrow",
+        "skill": "Archery",
+        "skillchain": ["Light", "Distortion"]
+    },
+    {
+        "name": "Refulgent Arrow",
+        "skill": "Archery",
+        "skillchain": ["Reverberation", "Transfixion"]
+    },
+    {
+        "name": "Jishnu's Radiance",
+        "skill": "Archery",
+        "skillchain": ["Light", "Fusion"]
+    },
+    {
+        "name": "Apex Arrow",
+        "skill": "Archery",
+        "skillchain": ["Fragmentation", "Transfixion"],
+        "aeonic": "Light",
+        "weapon": "Fail-Not"
+    },
+    {
+        "name": "Hot Shot",
+        "skill": "Marksmanship",
+        "skillchain": ["Liquefaction", "Transfixion"]
+    },
+    {
+        "name": "Split Shot",
+        "skill": "Marksmanship",
+        "skillchain": ["Reverberation", "Transfixion"]
+    },
+    {
+        "name": "Sniper Shot",
+        "skill": "Marksmanship",
+        "skillchain": ["Liquefaction", "Transfixion"]
+    },
+    {
+        "name": "Slug Shot",
+        "skill": "Marksmanship",
+        "skillchain": ["Reverberation", "Transfixion", "Detonation"]
+    },
+    {
+        "name": "Blast Shot",
+        "skill": "Marksmanship",
+        "skillchain": ["Induration", "Transfixion"]
+    },
+    { "name": "Heavy Shot", "skill": "Marksmanship", "skillchain": ["Fusion"] },
+    {
+        "name": "Detonator",
+        "skill": "Marksmanship",
+        "skillchain": ["Fusion", "Transfixion"]
+    },
+    {
+        "name": "Coronach",
+        "skill": "Marksmanship",
+        "skillchain": ["Darkness", "Fragmentation"]
+    },
+    {
+        "name": "Trueflight",
+        "skill": "Marksmanship",
+        "skillchain": ["Fragmentation", "Scission"]
+    },
+    {
+        "name": "Leaden Salute",
+        "skill": "Marksmanship",
+        "skillchain": ["Gravitation", "Transfixion"]
+    },
+    {
+        "name": "Numbing Shot",
+        "skill": "Marksmanship",
+        "skillchain": ["Induration", "Detonation", "Impaction"]
+    },
+    {
+        "name": "Wildfire",
+        "skill": "Marksmanship",
+        "skillchain": ["Darkness", "Gravitation"]
+    },
+    {
+        "name": "Last Stand",
+        "skill": "Marksmanship",
+        "skillchain": ["Fusion", "Reverberation"],
+        "aeonic": "Light",
+        "weapon": "Fomalhaut"
+    }
 ]
