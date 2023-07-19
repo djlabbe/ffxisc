@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Combo",
+    "skill": "Hand-to-Hand",
+    "properties": ["Impaction"],
+    "jobs": [
+      { "job": "MNK", "level": 1 },
+      { "job": "PUP", "level": 1 },
+      { "job": "WAR", "level": 2 },
+      { "job": "DNC", "level": 2 },
+      { "job": "NIN", "level": 2 },
+      { "job": "THF", "level": 2 }
+    ],
+    "modifiers": [
+      { "stat": "STR", "value": 0.3 },
+      { "stat": "DEX", "value": 0.3 }
+    ],
+    "ftp": [1.0, 3.75, 5.5],
+    "ftpReplicating": true,
+    "class": "physical",
+    "hits": 3
+  },
+  {
+    "name": "Shoulder Tackle",
+    "skill": "Hand-to-Hand",
+    "properties": ["Reverberation", "Impaction"],
+    "jobs": [
+      { "job": "MNK", "level": 13 },
+      { "job": "PUP", "level": 14 },
+      { "job": "WAR", "level": 15 },
+      { "job": "DNC", "level": 15 },
+      { "job": "NIN", "level": 16 },
+      { "job": "THF", "level": 16 }
+    ],
+    "modifiers": [{ "stat": "VIT", "value": 1.0 }],
+    "ftp": [1.0, 1.0, 1.0],
+    "ftpReplicating": true,
+    "class": "physical",
+    "hits": 1
+  },
+  {
+    "name": "One Inch Punch",
+    "skill": "Hand-to-Hand",
+    "properties": ["Compression"],
+    "jobs": [
+      { "job": "MNK", "level": 24 },
+      { "job": "PUP", "level": 26 }
+    ],
+    "modifiers": [{ "stat": "VIT", "value": 1.0 }],
+    "ftpReplicating": true,
+    "ftp": [1.0, 1.0, 1.0],
+    "class": "physical",
+    "hits": 1
+  },
+  {
+    "name": "Backhand Blow",
+    "skill": "Hand-to-Hand",
+    "properties": ["Detonation"],
+    "jobs": [
+      { "job": "MNK", "level": 33 },
+      { "job": "PUP", "level": 35 },
+      { "job": "WAR", "level": 37 },
+      { "job": "DNC", "level": 37 },
+      { "job": "NIN", "level": 40 },
+      { "job": "THF", "level": 40 }
+    ],
+    "modifiers": [
+      { "stat": "STR", "value": 0.5 },
+      { "stat": "DEX", "value": 0.5 }
+    ],
+    "ftpReplicating": false,
+    "ftp": [1.0, 1.0, 1.0],
+    "class": "physical",
+    "hits": 1
+  },
+  {
+    "name": "Raging Fists",
+    "skill": "Hand-to-Hand",
+    "properties": ["Impaction"],
+    "jobs": [
+      { "job": "MNK", "level": 41 },
+      { "job": "PUP", "level": 44 },
+      { "job": "WAR", "level": 46 },
+      { "job": "DNC", "level": 46 },
+      { "job": "NIN", "level": 50 },
+      { "job": "THF", "level": 50 }
+    ],
+    "modifiers": [
+      { "stat": "STR", "value": 0.3 },
+      { "stat": "DEX", "value": 0.3 }
+    ],
+    "ftpReplicating": true,
+    "ftp": [1.0, 2.1875, 3.75],
+    "class": "physical",
+    "hits": 5
+  },
+  {
+    "name": "Spinning Attack",
+    "skill": "Hand-to-Hand",
+    "properties": ["Liquefaction", "Impaction"],
+    "jobs": [
+      { "job": "MNK", "level": 49 },
+      { "job": "PUP", "level": 51 },
+      { "job": "WAR", "level": 53 },
+      { "job": "DNC", "level": 53 },
+      { "job": "NIN", "level": 56 },
+      { "job": "THF", "level": 56 }
+    ],
+    "modifiers": [{ "stat": "STR", "value": 1.0 }],
+    "ftpReplicating": true,
+    "ftp": [1.0, 1.0, 1.0],
+    "class": "physical",
+    "hits": 1
+  },
+  {
+    "name": "Howling Fist",
+    "skill": "Hand-to-Hand",
+    "properties": ["Transfixion", "Impaction"],
+    "jobs": [
+      { "job": "MNK", "level": 60 },
+      { "job": "PUP", "level": 62 }
+    ],
+    "modifiers": [
+      { "stat": "VIT", "value": 0.5 },
+      { "stat": "STR", "value": 0.2 }
+    ],
+    "ftpReplicating": true,
+    "ftp": [2.05, 3.55, 5.75],
+    "class": "physical",
+    "hits": 2
+  },
+  {
+    "name": "Dragon Kick",
+    "skill": "Hand-to-Hand",
+    "properties": ["Fragmentation"],
+    "jobs": [
+      { "job": "MNK", "level": 65 },
+      { "job": "PUP", "level": 68 }
+    ],
+    "modifiers": [
+      { "stat": "STR", "value": 0.5 },
+      { "stat": "VIT", "value": 0.5 }
+    ],
+    "ftpReplicating": true,
+    "ftp": [1.7, 3.0, 5.0],
+    "class": "physical",
+    "hits": 2
+  },
+  {
+    "name": "Asuran Fists",
+    "skill": "Hand-to-Hand",
+    "properties": ["Gravitation", "Liquefaction"],
+    "jobs": [
+      { "job": "MNK", "level": 71 },
+      { "job": "PUP", "level": 74 },
+      { "job": "WAR", "level": 99 },
+      { "job": "RDM", "level": 99 },
+      { "job": "THF", "level": 99 },
+      { "job": "DRK", "level": 99 },
+      { "job": "BST", "level": 99 },
+      { "job": "NIN", "level": 99 },
+      { "job": "DNC", "level": 99 }
+    ],
+    "modifiers": [
+      { "stat": "STR", "value": 0.15 },
+      { "stat": "VIT", "value": 0.15 }
+    ],
+    "ftpReplicating": true,
+    "ftp": [1.25, 1.25, 1.25],
+    "class": "physical",
+    "hits": 8
+  },
+  {
+    "name": "Final Heaven",
+    "skill": "Hand-to-Hand",
+    "properties": ["Light", "Fusion"],
+    "jobs": [{ "job": "MNK", "level": 65 }],
+    "modifiers": [{ "stat": "VIT", "value": 0.8 }],
+    "ftpReplicating": false,
+    "ftp": [3.0, 3.0, 3.0],
+    "class": "physical",
+    "hits": 1
+  },
+  {
+    "name": "Ascetic's Fury",
+    "skill": "Hand-to-Hand",
+    "properties": ["Fusion", "Transfixion"],
+    "jobs": [{ "job": "MNK", "level": 75 }],
+    "modifiers": [
+      { "stat": "STR", "value": 0.5 },
+      { "stat": "VIT", "value": 0.5 }
+    ],
+    "ftpReplicating": true,
+    "ftp": [1.0, 1.0, 1.0],
+    "class": "physical",
+    "hits": 1
+  },
+  {
+    "name": "Stringing Pummel",
+    "skill": "Hand-to-Hand",
+    "properties": ["Gravitation", "Liquefaction"],
+    "jobs": [{ "job": "PUP", "level": 65 }],
+    "modifiers": [
+      { "stat": "STR", "value": 0.32 },
+      { "stat": "VIT", "value": 0.32 }
+    ],
+    "ftpReplicating": true,
+    "ftp": [1.0, 1.0, 1.0],
+    "class": "physical",
+    "hits": 6
+  },
+  {
+    "name": "Tornado Kick",
+    "skill": "Hand-to-Hand",
+    "properties": ["Induration", "Detonation", "Impaction"],
+    "jobs": [
+      { "job": "MNK", "level": 80 },
+      { "job": "PUP", "level": 84 },
+      { "job": "WAR", "level": 94 },
+      { "job": "DNC", "level": 94 },
+      { "job": "NIN", "level": 99 },
+      { "job": "THF", "level": 99 }
+    ],
+    "modifiers": [
+      { "stat": "STR", "value": 0.4 },
+      { "stat": "VIT", "value": 0.4 }
+    ],
+    "ftpReplicating": true,
+    "ftp": [1.7, 2.8, 4, 5],
+    "class": "physical",
+    "hits": 3
+  },
+  {
+    "name": "Victory Smite",
+    "skill": "Hand-to-Hand",
+    "properties": ["Light", "Fragmentation"],
+    "jobs": [
+      { "job": "MNK", "level": 85 },
+      { "job": "PUP", "level": 85 }
+    ],
+    "modifiers": [{ "stat": "STR", "value": 0.8 }],
+    "ftpReplicating": true,
+    "ftp": [1.5, 1.5, 1.5],
+    "class": "physical",
+    "hits": 4
+  },
+  {
+    "name": "Shijin Spiral",
+    "skill": "Hand-to-Hand",
+    "properties": ["Fusion", "Reverberation"],
+    "aeonic": "Light",
+    "weapon": "Godhands",
+    "jobs": [
+      { "job": "MNK", "level": 90 },
+      { "job": "PUP", "level": 93 }
+    ],
+    "modifiers": [{ "stat": "DEX", "value": 0.85 }],
+    "ftpReplicating": true,
+    "ftp": [1.5, 1.5, 1.5],
+    "class": "physical",
+    "hits": 5
+  },
+  {
+    "name": "Savage Blade",
+    "skill": "Sword",
+    "properties": ["Fragmentation", "Scission"],
+    "jobs": [
+      { "job": "PLD", "level": 68 },
+      { "job": "BLU", "level": 68 },
+      { "job": "RUN", "level": 70 },
+      { "job": "RDM", "level": 73 },
+      { "job": "WAR", "level": 73 },
+      { "job": "COR", "level": 68 },
+      { "job": "DRK", "level": 75 },
+      { "job": "THF", "level": 99 },
+      { "job": "BST", "level": 99 },
+      { "job": "BRD", "level": 99 },
+      { "job": "RNG", "level": 99 },
+      { "job": "NIN", "level": 99 },
+      { "job": "DRG", "level": 99 }
+    ],
+    "modifiers": [
+      { "stat": "STR", "value": 0.5 },
+      { "stat": "MND", "value": 0.5 }
+    ],
+    "ftpReplicating": false,
+    "ftp": [4.0, 10.25, 13.75],
+    "class": "physical",
+    "hits": 2
+  },
+  {
+    "name": "Tachi: Fudo",
+    "skill": "Great Katana",
+    "properties": ["Light", "Distortion"],
+    "jobs": [{ "job": "SAM", "level": 85 }],
+    "modifiers": [{ "stat": "STR", "value": 0.8 }],
+    "ftpReplicating": false,
+    "ftp": [3.75, 5.75, 8.0],
+    "class": "physical",
+    "hits": 1
+  }
+]

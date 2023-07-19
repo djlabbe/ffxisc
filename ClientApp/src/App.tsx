@@ -3,7 +3,7 @@ import WSCalc from './WSCalc';
 
 function App() {
     return (
-        <Container maxW={'5xl'}>
+        <Container maxW={'6xl'}>
             {/* <BluGuide /> */}
             <WSCalc />
         </Container>
