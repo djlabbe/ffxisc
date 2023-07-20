@@ -182,7 +182,7 @@ const WSCalc = () => {
     setLastSwing(results);
    
   };
-;
+
   return (
     <div>
       <Box my="2">
